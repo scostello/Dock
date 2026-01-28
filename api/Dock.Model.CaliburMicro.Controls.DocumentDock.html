@@ -85,7 +85,7 @@
 
 
   <h1 id="Dock_Model_CaliburMicro_Controls_DocumentDock" data-uid="Dock.Model.CaliburMicro.Controls.DocumentDock" class="text-break">
-Class DocumentDock  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Model.CaliburMicro/Controls/DocumentDock.cs/#L14"><i class="bi bi-code-slash"></i></a>
+Class DocumentDock  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Model.CaliburMicro/Controls/DocumentDock.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -98,8 +98,7 @@ Class DocumentDock  <a class="header-action link-secondary" title="View source" 
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DataContract(IsReference = true)]
-public class DocumentDock : DockBase, INotifyPropertyChangedEx, INotifyPropertyChanged, IDockSelectorInfo, IDocumentDock, IDock, IDockable, IControlRecyclingIdProvider, ILocalTarget</code></pre>
+    <pre><code class="lang-csharp hljs">public class DocumentDock : DockBase, INotifyPropertyChangedEx, INotifyPropertyChanged, IDockSelectorInfo, IDockableDockingRestrictions, IDocumentDock, IDock, IDockable, IControlRecyclingIdProvider, ILocalTarget, IDocumentDockFactory</code></pre>
   </div>
 
 
@@ -123,11 +122,13 @@ public class DocumentDock : DockBase, INotifyPropertyChangedEx, INotifyPropertyC
       <div><a class="xref" href="https://github.com/Caliburn-Micro/Caliburn.Micro/blob/master/src/Caliburn.Micro.Core/INotifyPropertyChangedEx.cs">INotifyPropertyChangedEx</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
       <div><a class="xref" href="Dock.Model.Core.IDockSelectorInfo.html">IDockSelectorInfo</a></div>
+      <div><a class="xref" href="Dock.Model.Core.IDockableDockingRestrictions.html">IDockableDockingRestrictions</a></div>
       <div><a class="xref" href="Dock.Model.Controls.IDocumentDock.html">IDocumentDock</a></div>
       <div><a class="xref" href="Dock.Model.Core.IDock.html">IDock</a></div>
       <div><a class="xref" href="Dock.Model.Core.IDockable.html">IDockable</a></div>
       <div><a class="xref" href="Avalonia.Controls.Recycling.Model.IControlRecyclingIdProvider.html">IControlRecyclingIdProvider</a></div>
       <div><a class="xref" href="Dock.Model.Core.ILocalTarget.html">ILocalTarget</a></div>
+      <div><a class="xref" href="Dock.Model.Controls.IDocumentDockFactory.html">IDocumentDockFactory</a></div>
     </dd>
   </dl>
 
@@ -256,10 +257,19 @@ public class DocumentDock : DockBase, INotifyPropertyChangedEx, INotifyPropertyC
       <a class="xref" href="Dock.Model.CaliburMicro.Core.DockableBase.html#Dock_Model_CaliburMicro_Core_DockableBase_CanDrop">DockableBase.CanDrop</a>
     </div>
     <div>
+      <a class="xref" href="Dock.Model.CaliburMicro.Core.DockableBase.html#Dock_Model_CaliburMicro_Core_DockableBase_CanDockAsDocument">DockableBase.CanDockAsDocument</a>
+    </div>
+    <div>
       <a class="xref" href="Dock.Model.CaliburMicro.Core.DockableBase.html#Dock_Model_CaliburMicro_Core_DockableBase_IsModified">DockableBase.IsModified</a>
     </div>
     <div>
       <a class="xref" href="Dock.Model.CaliburMicro.Core.DockableBase.html#Dock_Model_CaliburMicro_Core_DockableBase_DockGroup">DockableBase.DockGroup</a>
+    </div>
+    <div>
+      <a class="xref" href="Dock.Model.CaliburMicro.Core.DockableBase.html#Dock_Model_CaliburMicro_Core_DockableBase_AllowedDockOperations">DockableBase.AllowedDockOperations</a>
+    </div>
+    <div>
+      <a class="xref" href="Dock.Model.CaliburMicro.Core.DockableBase.html#Dock_Model_CaliburMicro_Core_DockableBase_AllowedDropOperations">DockableBase.AllowedDropOperations</a>
     </div>
     <div>
       <a class="xref" href="Dock.Model.CaliburMicro.Core.DockableBase.html#Dock_Model_CaliburMicro_Core_DockableBase_ShowInSelector">DockableBase.ShowInSelector</a>
@@ -375,10 +385,19 @@ public class DocumentDock : DockBase, INotifyPropertyChangedEx, INotifyPropertyC
       <a class="xref" href="Dock.Model.FluentExtensions.html#Dock_Model_FluentExtensions_WithActiveDockable__1___0_Dock_Model_Core_IDockable_">FluentExtensions.WithActiveDockable&lt;T&gt;(T, IDockable?)</a>
   </div>
   <div>
+      <a class="xref" href="Dock.Model.FluentExtensions.html#Dock_Model_FluentExtensions_WithAllowedDockOperations__1___0_Dock_Model_Core_DockOperationMask_">FluentExtensions.WithAllowedDockOperations&lt;T&gt;(T, DockOperationMask)</a>
+  </div>
+  <div>
+      <a class="xref" href="Dock.Model.FluentExtensions.html#Dock_Model_FluentExtensions_WithAllowedDropOperations__1___0_Dock_Model_Core_DockOperationMask_">FluentExtensions.WithAllowedDropOperations&lt;T&gt;(T, DockOperationMask)</a>
+  </div>
+  <div>
       <a class="xref" href="Dock.Model.FluentExtensions.html#Dock_Model_FluentExtensions_WithCanCloseLastDockable__1___0_System_Boolean_">FluentExtensions.WithCanCloseLastDockable&lt;T&gt;(T, bool)</a>
   </div>
   <div>
       <a class="xref" href="Dock.Model.FluentExtensions.html#Dock_Model_FluentExtensions_WithCanClose__1___0_System_Boolean_">FluentExtensions.WithCanClose&lt;T&gt;(T, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Dock.Model.FluentExtensions.html#Dock_Model_FluentExtensions_WithCanDockAsDocument__1___0_System_Boolean_">FluentExtensions.WithCanDockAsDocument&lt;T&gt;(T, bool)</a>
   </div>
   <div>
       <a class="xref" href="Dock.Model.FluentExtensions.html#Dock_Model_FluentExtensions_WithCanDrag__1___0_System_Boolean_">FluentExtensions.WithCanDrag&lt;T&gt;(T, bool)</a>
@@ -541,7 +560,7 @@ public bool CanCreateDocument { get; set; }</code></pre>
 
   <h3 id="Dock_Model_CaliburMicro_Controls_DocumentDock_CascadeDocuments" data-uid="Dock.Model.CaliburMicro.Controls.DocumentDock.CascadeDocuments">
   CascadeDocuments
-  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Model.CaliburMicro/Controls/DocumentDock.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Model.CaliburMicro/Controls/DocumentDock.cs/#L83"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets command to cascade MDI documents.</p>
@@ -574,7 +593,7 @@ public ICommand? CascadeDocuments { get; set; }</code></pre>
 
   <h3 id="Dock_Model_CaliburMicro_Controls_DocumentDock_CloseButtonShowMode" data-uid="Dock.Model.CaliburMicro.Controls.DocumentDock.CloseButtonShowMode">
   CloseButtonShowMode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Model.CaliburMicro/Controls/DocumentDock.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Model.CaliburMicro/Controls/DocumentDock.cs/#L75"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets when document close buttons are displayed.</p>
@@ -636,11 +655,44 @@ public ICommand? CreateDocument { get; set; }</code></pre>
 
 
 
+  <a id="Dock_Model_CaliburMicro_Controls_DocumentDock_DocumentFactory_" data-uid="Dock.Model.CaliburMicro.Controls.DocumentDock.DocumentFactory*"></a>
+
+  <h3 id="Dock_Model_CaliburMicro_Controls_DocumentDock_DocumentFactory" data-uid="Dock.Model.CaliburMicro.Controls.DocumentDock.DocumentFactory">
+  DocumentFactory
+  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Model.CaliburMicro/Controls/DocumentDock.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets factory method used to create new documents.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IgnoreDataMember]
+public Func&lt;IDockable&gt;? DocumentFactory { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="Dock.Model.Core.IDockable.html">IDockable</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Dock_Model_CaliburMicro_Controls_DocumentDock_EnableWindowDrag_" data-uid="Dock.Model.CaliburMicro.Controls.DocumentDock.EnableWindowDrag*"></a>
 
   <h3 id="Dock_Model_CaliburMicro_Controls_DocumentDock_EnableWindowDrag" data-uid="Dock.Model.CaliburMicro.Controls.DocumentDock.EnableWindowDrag">
   EnableWindowDrag
-  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Model.CaliburMicro/Controls/DocumentDock.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Model.CaliburMicro/Controls/DocumentDock.cs/#L51"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets if the window can be dragged by clicking on the tab strip.</p>
@@ -673,7 +725,7 @@ public bool EnableWindowDrag { get; set; }</code></pre>
 
   <h3 id="Dock_Model_CaliburMicro_Controls_DocumentDock_LayoutMode" data-uid="Dock.Model.CaliburMicro.Controls.DocumentDock.LayoutMode">
   LayoutMode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Model.CaliburMicro/Controls/DocumentDock.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Model.CaliburMicro/Controls/DocumentDock.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets document layout mode.</p>
@@ -706,7 +758,7 @@ public DocumentLayoutMode LayoutMode { get; set; }</code></pre>
 
   <h3 id="Dock_Model_CaliburMicro_Controls_DocumentDock_RestoreDocuments" data-uid="Dock.Model.CaliburMicro.Controls.DocumentDock.RestoreDocuments">
   RestoreDocuments
-  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Model.CaliburMicro/Controls/DocumentDock.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Model.CaliburMicro/Controls/DocumentDock.cs/#L107"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets command to restore MDI documents to normal state.</p>
@@ -739,7 +791,7 @@ public ICommand? RestoreDocuments { get; set; }</code></pre>
 
   <h3 id="Dock_Model_CaliburMicro_Controls_DocumentDock_TabsLayout" data-uid="Dock.Model.CaliburMicro.Controls.DocumentDock.TabsLayout">
   TabsLayout
-  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Model.CaliburMicro/Controls/DocumentDock.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Model.CaliburMicro/Controls/DocumentDock.cs/#L67"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets document tabs layout.</p>
@@ -772,7 +824,7 @@ public DocumentTabLayout TabsLayout { get; set; }</code></pre>
 
   <h3 id="Dock_Model_CaliburMicro_Controls_DocumentDock_TileDocumentsHorizontal" data-uid="Dock.Model.CaliburMicro.Controls.DocumentDock.TileDocumentsHorizontal">
   TileDocumentsHorizontal
-  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Model.CaliburMicro/Controls/DocumentDock.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Model.CaliburMicro/Controls/DocumentDock.cs/#L91"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets command to tile MDI documents horizontally.</p>
@@ -805,7 +857,7 @@ public ICommand? TileDocumentsHorizontal { get; set; }</code></pre>
 
   <h3 id="Dock_Model_CaliburMicro_Controls_DocumentDock_TileDocumentsVertical" data-uid="Dock.Model.CaliburMicro.Controls.DocumentDock.TileDocumentsVertical">
   TileDocumentsVertical
-  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Model.CaliburMicro/Controls/DocumentDock.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Model.CaliburMicro/Controls/DocumentDock.cs/#L99"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets command to tile MDI documents vertically.</p>
@@ -842,7 +894,7 @@ public ICommand? TileDocumentsVertical { get; set; }</code></pre>
 
   <h3 id="Dock_Model_CaliburMicro_Controls_DocumentDock_AddDocument_Dock_Model_Core_IDockable_" data-uid="Dock.Model.CaliburMicro.Controls.DocumentDock.AddDocument(Dock.Model.Core.IDockable)">
   AddDocument(IDockable)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Model.CaliburMicro/Controls/DocumentDock.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Model.CaliburMicro/Controls/DocumentDock.cs/#L115"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Adds the specified document to this dock and activates it.</p>
@@ -875,7 +927,7 @@ public ICommand? TileDocumentsVertical { get; set; }</code></pre>
 
   <h3 id="Dock_Model_CaliburMicro_Controls_DocumentDock_AddTool_Dock_Model_Core_IDockable_" data-uid="Dock.Model.CaliburMicro.Controls.DocumentDock.AddTool(Dock.Model.Core.IDockable)">
   AddTool(IDockable)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Model.CaliburMicro/Controls/DocumentDock.cs/#L117"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Model.CaliburMicro/Controls/DocumentDock.cs/#L123"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Adds the specified tool to this dock and activates it.</p>
@@ -908,7 +960,7 @@ public ICommand? TileDocumentsVertical { get; set; }</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/scostello/Dock/blob/master/src/Dock.Model.CaliburMicro/Controls/DocumentDock.cs/#L14" class="edit-link">Edit this page</a>
+          <a href="https://github.com/scostello/Dock/blob/master/src/Dock.Model.CaliburMicro/Controls/DocumentDock.cs/#L15" class="edit-link">Edit this page</a>
         </div>
 
 

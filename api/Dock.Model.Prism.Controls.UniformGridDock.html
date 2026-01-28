@@ -98,8 +98,7 @@ Class UniformGridDock  <a class="header-action link-secondary" title="View sourc
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DataContract(IsReference = true)]
-public class UniformGridDock : DockBase, INotifyPropertyChanged, IDockSelectorInfo, IUniformGridDock, IDock, IDockable, IControlRecyclingIdProvider</code></pre>
+    <pre><code class="lang-csharp hljs">public class UniformGridDock : DockBase, INotifyPropertyChanged, IDockSelectorInfo, IDockableDockingRestrictions, IUniformGridDock, IDock, IDockable, IControlRecyclingIdProvider</code></pre>
   </div>
 
 
@@ -122,6 +121,7 @@ public class UniformGridDock : DockBase, INotifyPropertyChanged, IDockSelectorIn
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
       <div><a class="xref" href="Dock.Model.Core.IDockSelectorInfo.html">IDockSelectorInfo</a></div>
+      <div><a class="xref" href="Dock.Model.Core.IDockableDockingRestrictions.html">IDockableDockingRestrictions</a></div>
       <div><a class="xref" href="Dock.Model.Controls.IUniformGridDock.html">IUniformGridDock</a></div>
       <div><a class="xref" href="Dock.Model.Core.IDock.html">IDock</a></div>
       <div><a class="xref" href="Dock.Model.Core.IDockable.html">IDockable</a></div>
@@ -254,10 +254,19 @@ public class UniformGridDock : DockBase, INotifyPropertyChanged, IDockSelectorIn
       <a class="xref" href="Dock.Model.Prism.Core.DockableBase.html#Dock_Model_Prism_Core_DockableBase_CanDrop">DockableBase.CanDrop</a>
     </div>
     <div>
+      <a class="xref" href="Dock.Model.Prism.Core.DockableBase.html#Dock_Model_Prism_Core_DockableBase_CanDockAsDocument">DockableBase.CanDockAsDocument</a>
+    </div>
+    <div>
       <a class="xref" href="Dock.Model.Prism.Core.DockableBase.html#Dock_Model_Prism_Core_DockableBase_IsModified">DockableBase.IsModified</a>
     </div>
     <div>
       <a class="xref" href="Dock.Model.Prism.Core.DockableBase.html#Dock_Model_Prism_Core_DockableBase_DockGroup">DockableBase.DockGroup</a>
+    </div>
+    <div>
+      <a class="xref" href="Dock.Model.Prism.Core.DockableBase.html#Dock_Model_Prism_Core_DockableBase_AllowedDockOperations">DockableBase.AllowedDockOperations</a>
+    </div>
+    <div>
+      <a class="xref" href="Dock.Model.Prism.Core.DockableBase.html#Dock_Model_Prism_Core_DockableBase_AllowedDropOperations">DockableBase.AllowedDropOperations</a>
     </div>
     <div>
       <a class="xref" href="Dock.Model.Prism.Core.DockableBase.html#Dock_Model_Prism_Core_DockableBase_ShowInSelector">DockableBase.ShowInSelector</a>
@@ -373,10 +382,19 @@ public class UniformGridDock : DockBase, INotifyPropertyChanged, IDockSelectorIn
       <a class="xref" href="Dock.Model.FluentExtensions.html#Dock_Model_FluentExtensions_WithActiveDockable__1___0_Dock_Model_Core_IDockable_">FluentExtensions.WithActiveDockable&lt;T&gt;(T, IDockable?)</a>
   </div>
   <div>
+      <a class="xref" href="Dock.Model.FluentExtensions.html#Dock_Model_FluentExtensions_WithAllowedDockOperations__1___0_Dock_Model_Core_DockOperationMask_">FluentExtensions.WithAllowedDockOperations&lt;T&gt;(T, DockOperationMask)</a>
+  </div>
+  <div>
+      <a class="xref" href="Dock.Model.FluentExtensions.html#Dock_Model_FluentExtensions_WithAllowedDropOperations__1___0_Dock_Model_Core_DockOperationMask_">FluentExtensions.WithAllowedDropOperations&lt;T&gt;(T, DockOperationMask)</a>
+  </div>
+  <div>
       <a class="xref" href="Dock.Model.FluentExtensions.html#Dock_Model_FluentExtensions_WithCanCloseLastDockable__1___0_System_Boolean_">FluentExtensions.WithCanCloseLastDockable&lt;T&gt;(T, bool)</a>
   </div>
   <div>
       <a class="xref" href="Dock.Model.FluentExtensions.html#Dock_Model_FluentExtensions_WithCanClose__1___0_System_Boolean_">FluentExtensions.WithCanClose&lt;T&gt;(T, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Dock.Model.FluentExtensions.html#Dock_Model_FluentExtensions_WithCanDockAsDocument__1___0_System_Boolean_">FluentExtensions.WithCanDockAsDocument&lt;T&gt;(T, bool)</a>
   </div>
   <div>
       <a class="xref" href="Dock.Model.FluentExtensions.html#Dock_Model_FluentExtensions_WithCanDrag__1___0_System_Boolean_">FluentExtensions.WithCanDrag&lt;T&gt;(T, bool)</a>
@@ -482,7 +500,7 @@ public class UniformGridDock : DockBase, INotifyPropertyChanged, IDockSelectorIn
 
   <h3 id="Dock_Model_Prism_Controls_UniformGridDock_Columns" data-uid="Dock.Model.Prism.Controls.UniformGridDock.Columns">
   Columns
-  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Model.Prism/Controls/UniformGridDock.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Model.Prism/Controls/UniformGridDock.cs/#L26"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets number of columns.</p>
@@ -515,7 +533,7 @@ public int Columns { get; set; }</code></pre>
 
   <h3 id="Dock_Model_Prism_Controls_UniformGridDock_Rows" data-uid="Dock.Model.Prism.Controls.UniformGridDock.Rows">
   Rows
-  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Model.Prism/Controls/UniformGridDock.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Model.Prism/Controls/UniformGridDock.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets number of rows.</p>
