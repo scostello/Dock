@@ -85,7 +85,7 @@
 
 
   <h1 id="Dock_Avalonia_Controls_PinnedDockControl" data-uid="Dock.Avalonia.Controls.PinnedDockControl" class="text-break">
-Class PinnedDockControl  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Avalonia/Controls/PinnedDockControl.axaml.cs/#L22"><i class="bi bi-code-slash"></i></a>
+Class PinnedDockControl  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Avalonia/Controls/PinnedDockControl.axaml.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -627,9 +627,6 @@ public class PinnedDockControl : TemplatedControl, INotifyPropertyChanged, IData
       <span class="xref">Layoutable.MeasureCore(Size)</span>
     </div>
     <div>
-      <span class="xref">Layoutable.MeasureOverride(Size)</span>
-    </div>
-    <div>
       <span class="xref">Layoutable.ArrangeCore(Rect)</span>
     </div>
     <div>
@@ -1051,7 +1048,7 @@ public class PinnedDockControl : TemplatedControl, INotifyPropertyChanged, IData
 
   <h3 id="Dock_Avalonia_Controls_PinnedDockControl_PinnedDockAlignmentProperty" data-uid="Dock.Avalonia.Controls.PinnedDockControl.PinnedDockAlignmentProperty">
   PinnedDockAlignmentProperty
-  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Avalonia/Controls/PinnedDockControl.axaml.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Avalonia/Controls/PinnedDockControl.axaml.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Define the <a class="xref" href="Dock.Avalonia.Controls.PinnedDockControl.html#Dock_Avalonia_Controls_PinnedDockControl_PinnedDockAlignment">PinnedDockAlignment</a> property.</p>
@@ -1079,6 +1076,37 @@ public class PinnedDockControl : TemplatedControl, INotifyPropertyChanged, IData
 
 
 
+
+  <h3 id="Dock_Avalonia_Controls_PinnedDockControl_PinnedDockDisplayModeProperty" data-uid="Dock.Avalonia.Controls.PinnedDockControl.PinnedDockDisplayModeProperty">
+  PinnedDockDisplayModeProperty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Avalonia/Controls/PinnedDockControl.axaml.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Define the <a class="xref" href="Dock.Avalonia.Controls.PinnedDockControl.html#Dock_Avalonia_Controls_PinnedDockControl_PinnedDockDisplayMode">PinnedDockDisplayMode</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly StyledProperty&lt;PinnedDockDisplayMode&gt; PinnedDockDisplayModeProperty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">StyledProperty</span>&lt;<a class="xref" href="Dock.Model.Core.PinnedDockDisplayMode.html">PinnedDockDisplayMode</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
   <h2 class="section" id="properties">Properties
 </h2>
 
@@ -1087,7 +1115,7 @@ public class PinnedDockControl : TemplatedControl, INotifyPropertyChanged, IData
 
   <h3 id="Dock_Avalonia_Controls_PinnedDockControl_PinnedDockAlignment" data-uid="Dock.Avalonia.Controls.PinnedDockControl.PinnedDockAlignment">
   PinnedDockAlignment
-  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Avalonia/Controls/PinnedDockControl.axaml.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Avalonia/Controls/PinnedDockControl.axaml.cs/#L45"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets pinned dock alignment</p>
@@ -1115,15 +1143,86 @@ public class PinnedDockControl : TemplatedControl, INotifyPropertyChanged, IData
 
 
 
+  <a id="Dock_Avalonia_Controls_PinnedDockControl_PinnedDockDisplayMode_" data-uid="Dock.Avalonia.Controls.PinnedDockControl.PinnedDockDisplayMode*"></a>
+
+  <h3 id="Dock_Avalonia_Controls_PinnedDockControl_PinnedDockDisplayMode" data-uid="Dock.Avalonia.Controls.PinnedDockControl.PinnedDockDisplayMode">
+  PinnedDockDisplayMode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Avalonia/Controls/PinnedDockControl.axaml.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets pinned dock display mode.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PinnedDockDisplayMode PinnedDockDisplayMode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Dock.Model.Core.PinnedDockDisplayMode.html">PinnedDockDisplayMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
+
+
+  <a id="Dock_Avalonia_Controls_PinnedDockControl_MeasureOverride_" data-uid="Dock.Avalonia.Controls.PinnedDockControl.MeasureOverride*"></a>
+
+  <h3 id="Dock_Avalonia_Controls_PinnedDockControl_MeasureOverride_Avalonia_Size_" data-uid="Dock.Avalonia.Controls.PinnedDockControl.MeasureOverride(Avalonia.Size)">
+  MeasureOverride(Size)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Avalonia/Controls/PinnedDockControl.axaml.cs/#L230"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Measures the control and its child elements as part of a layout pass.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override Size MeasureOverride(Size availableSize)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>availableSize</code> <span class="xref">Size</span></dt>
+    <dd><p>The size available to the control.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Size</span></dt>
+    <dd><p>The desired size for the control.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
 
 
   <a id="Dock_Avalonia_Controls_PinnedDockControl_OnApplyTemplate_" data-uid="Dock.Avalonia.Controls.PinnedDockControl.OnApplyTemplate*"></a>
 
   <h3 id="Dock_Avalonia_Controls_PinnedDockControl_OnApplyTemplate_Avalonia_Controls_Primitives_TemplateAppliedEventArgs_" data-uid="Dock.Avalonia.Controls.PinnedDockControl.OnApplyTemplate(Avalonia.Controls.Primitives.TemplateAppliedEventArgs)">
   OnApplyTemplate(TemplateAppliedEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Avalonia/Controls/PinnedDockControl.axaml.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/scostello/Dock/blob/master/src/Dock.Avalonia/Controls/PinnedDockControl.axaml.cs/#L211"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when the control's template is applied.
@@ -1157,7 +1256,7 @@ In simple terms, this means the method is called just before the control is disp
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/scostello/Dock/blob/master/src/Dock.Avalonia/Controls/PinnedDockControl.axaml.cs/#L22" class="edit-link">Edit this page</a>
+          <a href="https://github.com/scostello/Dock/blob/master/src/Dock.Avalonia/Controls/PinnedDockControl.axaml.cs/#L23" class="edit-link">Edit this page</a>
         </div>
 
 
