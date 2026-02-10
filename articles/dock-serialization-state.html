@@ -84,7 +84,7 @@
 <h1 id="dock-serialization-state-guide">Dock Serialization State Guide</h1>
 
 <p>This guide explains how to persist and restore dock state using <code>DockState</code>. The <a href="https://github.com/wieslawsoltes/Dock/tree/master/samples/DockXamlSample">DockXamlSample</a> shows these steps in a working application.</p>
-<p><code>DockState</code> stores tool and document content (and document templates for document docks) so that those values can be restored after a layout is loaded. Active and focused dockables are part of the layout model and are serialized with the layout itself.</p>
+<p><code>DockState</code> stores tool and document content (and document templates for document docks) so that those values can be restored after a layout is loaded. Active/focused dockables and <code>IDockable.DockingState</code> are part of the layout model and are serialized with the layout itself.</p>
 <h2 id="saving-the-state">Saving the state</h2>
 <p>Call <code>Save</code> with the root <code>IDock</code> before serializing the layout:</p>
 <pre><code class="lang-csharp">var layout = dockControl.Layout;

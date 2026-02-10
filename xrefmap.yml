@@ -58,6 +58,22 @@ references:
   isSpec: "True"
   fullName: Avalonia.Controls.Recycling.ControlRecycling.Clear
   nameWithType: ControlRecycling.Clear
+- uid: Avalonia.Controls.Recycling.ControlRecycling.Remove(System.Object)
+  name: Remove(object)
+  href: api/Avalonia.Controls.Recycling.ControlRecycling.html#Avalonia_Controls_Recycling_ControlRecycling_Remove_System_Object_
+  commentId: M:Avalonia.Controls.Recycling.ControlRecycling.Remove(System.Object)
+  name.vb: Remove(Object)
+  fullName: Avalonia.Controls.Recycling.ControlRecycling.Remove(object)
+  fullName.vb: Avalonia.Controls.Recycling.ControlRecycling.Remove(Object)
+  nameWithType: ControlRecycling.Remove(object)
+  nameWithType.vb: ControlRecycling.Remove(Object)
+- uid: Avalonia.Controls.Recycling.ControlRecycling.Remove*
+  name: Remove
+  href: api/Avalonia.Controls.Recycling.ControlRecycling.html#Avalonia_Controls_Recycling_ControlRecycling_Remove_
+  commentId: Overload:Avalonia.Controls.Recycling.ControlRecycling.Remove
+  isSpec: "True"
+  fullName: Avalonia.Controls.Recycling.ControlRecycling.Remove
+  nameWithType: ControlRecycling.Remove
 - uid: Avalonia.Controls.Recycling.ControlRecycling.TryGetValue(System.Object,System.Object@)
   name: TryGetValue(object?, out object?)
   href: api/Avalonia.Controls.Recycling.ControlRecycling.html#Avalonia_Controls_Recycling_ControlRecycling_TryGetValue_System_Object_System_Object__
@@ -1699,6 +1715,44 @@ references:
   commentId: F:Dock.Avalonia.Controls.DocumentControl.CloseTemplateProperty
   fullName: Dock.Avalonia.Controls.DocumentControl.CloseTemplateProperty
   nameWithType: DocumentControl.CloseTemplateProperty
+- uid: Dock.Avalonia.Controls.DocumentControl.EmptyContentTemplate
+  name: EmptyContentTemplate
+  href: api/Dock.Avalonia.Controls.DocumentControl.html#Dock_Avalonia_Controls_DocumentControl_EmptyContentTemplate
+  commentId: P:Dock.Avalonia.Controls.DocumentControl.EmptyContentTemplate
+  fullName: Dock.Avalonia.Controls.DocumentControl.EmptyContentTemplate
+  nameWithType: DocumentControl.EmptyContentTemplate
+- uid: Dock.Avalonia.Controls.DocumentControl.EmptyContentTemplate*
+  name: EmptyContentTemplate
+  href: api/Dock.Avalonia.Controls.DocumentControl.html#Dock_Avalonia_Controls_DocumentControl_EmptyContentTemplate_
+  commentId: Overload:Dock.Avalonia.Controls.DocumentControl.EmptyContentTemplate
+  isSpec: "True"
+  fullName: Dock.Avalonia.Controls.DocumentControl.EmptyContentTemplate
+  nameWithType: DocumentControl.EmptyContentTemplate
+- uid: Dock.Avalonia.Controls.DocumentControl.EmptyContentTemplateProperty
+  name: EmptyContentTemplateProperty
+  href: api/Dock.Avalonia.Controls.DocumentControl.html#Dock_Avalonia_Controls_DocumentControl_EmptyContentTemplateProperty
+  commentId: F:Dock.Avalonia.Controls.DocumentControl.EmptyContentTemplateProperty
+  fullName: Dock.Avalonia.Controls.DocumentControl.EmptyContentTemplateProperty
+  nameWithType: DocumentControl.EmptyContentTemplateProperty
+- uid: Dock.Avalonia.Controls.DocumentControl.HasVisibleDockables
+  name: HasVisibleDockables
+  href: api/Dock.Avalonia.Controls.DocumentControl.html#Dock_Avalonia_Controls_DocumentControl_HasVisibleDockables
+  commentId: P:Dock.Avalonia.Controls.DocumentControl.HasVisibleDockables
+  fullName: Dock.Avalonia.Controls.DocumentControl.HasVisibleDockables
+  nameWithType: DocumentControl.HasVisibleDockables
+- uid: Dock.Avalonia.Controls.DocumentControl.HasVisibleDockables*
+  name: HasVisibleDockables
+  href: api/Dock.Avalonia.Controls.DocumentControl.html#Dock_Avalonia_Controls_DocumentControl_HasVisibleDockables_
+  commentId: Overload:Dock.Avalonia.Controls.DocumentControl.HasVisibleDockables
+  isSpec: "True"
+  fullName: Dock.Avalonia.Controls.DocumentControl.HasVisibleDockables
+  nameWithType: DocumentControl.HasVisibleDockables
+- uid: Dock.Avalonia.Controls.DocumentControl.HasVisibleDockablesProperty
+  name: HasVisibleDockablesProperty
+  href: api/Dock.Avalonia.Controls.DocumentControl.html#Dock_Avalonia_Controls_DocumentControl_HasVisibleDockablesProperty
+  commentId: F:Dock.Avalonia.Controls.DocumentControl.HasVisibleDockablesProperty
+  fullName: Dock.Avalonia.Controls.DocumentControl.HasVisibleDockablesProperty
+  nameWithType: DocumentControl.HasVisibleDockablesProperty
 - uid: Dock.Avalonia.Controls.DocumentControl.HeaderTemplate
   name: HeaderTemplate
   href: api/Dock.Avalonia.Controls.DocumentControl.html#Dock_Avalonia_Controls_DocumentControl_HeaderTemplate
@@ -1788,6 +1842,19 @@ references:
   isSpec: "True"
   fullName: Dock.Avalonia.Controls.DocumentControl.OnAttachedToVisualTree
   nameWithType: DocumentControl.OnAttachedToVisualTree
+- uid: Dock.Avalonia.Controls.DocumentControl.OnDetachedFromVisualTree(Avalonia.VisualTreeAttachmentEventArgs)
+  name: OnDetachedFromVisualTree(VisualTreeAttachmentEventArgs)
+  href: api/Dock.Avalonia.Controls.DocumentControl.html#Dock_Avalonia_Controls_DocumentControl_OnDetachedFromVisualTree_Avalonia_VisualTreeAttachmentEventArgs_
+  commentId: M:Dock.Avalonia.Controls.DocumentControl.OnDetachedFromVisualTree(Avalonia.VisualTreeAttachmentEventArgs)
+  fullName: Dock.Avalonia.Controls.DocumentControl.OnDetachedFromVisualTree(Avalonia.VisualTreeAttachmentEventArgs)
+  nameWithType: DocumentControl.OnDetachedFromVisualTree(VisualTreeAttachmentEventArgs)
+- uid: Dock.Avalonia.Controls.DocumentControl.OnDetachedFromVisualTree*
+  name: OnDetachedFromVisualTree
+  href: api/Dock.Avalonia.Controls.DocumentControl.html#Dock_Avalonia_Controls_DocumentControl_OnDetachedFromVisualTree_
+  commentId: Overload:Dock.Avalonia.Controls.DocumentControl.OnDetachedFromVisualTree
+  isSpec: "True"
+  fullName: Dock.Avalonia.Controls.DocumentControl.OnDetachedFromVisualTree
+  nameWithType: DocumentControl.OnDetachedFromVisualTree
 - uid: Dock.Avalonia.Controls.DocumentControl.OnPropertyChanged(Avalonia.AvaloniaPropertyChangedEventArgs)
   name: OnPropertyChanged(AvaloniaPropertyChangedEventArgs)
   href: api/Dock.Avalonia.Controls.DocumentControl.html#Dock_Avalonia_Controls_DocumentControl_OnPropertyChanged_Avalonia_AvaloniaPropertyChangedEventArgs_
@@ -1943,6 +2010,25 @@ references:
   commentId: F:Dock.Avalonia.Controls.DocumentTabStrip.IsActiveProperty
   fullName: Dock.Avalonia.Controls.DocumentTabStrip.IsActiveProperty
   nameWithType: DocumentTabStrip.IsActiveProperty
+- uid: Dock.Avalonia.Controls.DocumentTabStrip.MouseWheelScrollOrientation
+  name: MouseWheelScrollOrientation
+  href: api/Dock.Avalonia.Controls.DocumentTabStrip.html#Dock_Avalonia_Controls_DocumentTabStrip_MouseWheelScrollOrientation
+  commentId: P:Dock.Avalonia.Controls.DocumentTabStrip.MouseWheelScrollOrientation
+  fullName: Dock.Avalonia.Controls.DocumentTabStrip.MouseWheelScrollOrientation
+  nameWithType: DocumentTabStrip.MouseWheelScrollOrientation
+- uid: Dock.Avalonia.Controls.DocumentTabStrip.MouseWheelScrollOrientation*
+  name: MouseWheelScrollOrientation
+  href: api/Dock.Avalonia.Controls.DocumentTabStrip.html#Dock_Avalonia_Controls_DocumentTabStrip_MouseWheelScrollOrientation_
+  commentId: Overload:Dock.Avalonia.Controls.DocumentTabStrip.MouseWheelScrollOrientation
+  isSpec: "True"
+  fullName: Dock.Avalonia.Controls.DocumentTabStrip.MouseWheelScrollOrientation
+  nameWithType: DocumentTabStrip.MouseWheelScrollOrientation
+- uid: Dock.Avalonia.Controls.DocumentTabStrip.MouseWheelScrollOrientationProperty
+  name: MouseWheelScrollOrientationProperty
+  href: api/Dock.Avalonia.Controls.DocumentTabStrip.html#Dock_Avalonia_Controls_DocumentTabStrip_MouseWheelScrollOrientationProperty
+  commentId: F:Dock.Avalonia.Controls.DocumentTabStrip.MouseWheelScrollOrientationProperty
+  fullName: Dock.Avalonia.Controls.DocumentTabStrip.MouseWheelScrollOrientationProperty
+  nameWithType: DocumentTabStrip.MouseWheelScrollOrientationProperty
 - uid: Dock.Avalonia.Controls.DocumentTabStrip.NeedsContainerOverride(System.Object,System.Int32,System.Object@)
   name: NeedsContainerOverride(object?, int, out object?)
   href: api/Dock.Avalonia.Controls.DocumentTabStrip.html#Dock_Avalonia_Controls_DocumentTabStrip_NeedsContainerOverride_System_Object_System_Int32_System_Object__
@@ -2515,6 +2601,19 @@ references:
   isSpec: "True"
   fullName: Dock.Avalonia.Controls.HostWindow.GetSize
   nameWithType: HostWindow.GetSize
+- uid: Dock.Avalonia.Controls.HostWindow.GetWindowState
+  name: GetWindowState()
+  href: api/Dock.Avalonia.Controls.HostWindow.html#Dock_Avalonia_Controls_HostWindow_GetWindowState
+  commentId: M:Dock.Avalonia.Controls.HostWindow.GetWindowState
+  fullName: Dock.Avalonia.Controls.HostWindow.GetWindowState()
+  nameWithType: HostWindow.GetWindowState()
+- uid: Dock.Avalonia.Controls.HostWindow.GetWindowState*
+  name: GetWindowState
+  href: api/Dock.Avalonia.Controls.HostWindow.html#Dock_Avalonia_Controls_HostWindow_GetWindowState_
+  commentId: Overload:Dock.Avalonia.Controls.HostWindow.GetWindowState
+  isSpec: "True"
+  fullName: Dock.Avalonia.Controls.HostWindow.GetWindowState
+  nameWithType: HostWindow.GetWindowState
 - uid: Dock.Avalonia.Controls.HostWindow.HostWindowState
   name: HostWindowState
   href: api/Dock.Avalonia.Controls.HostWindow.html#Dock_Avalonia_Controls_HostWindow_HostWindowState
@@ -2728,6 +2827,19 @@ references:
   isSpec: "True"
   fullName: Dock.Avalonia.Controls.HostWindow.SetTitle
   nameWithType: HostWindow.SetTitle
+- uid: Dock.Avalonia.Controls.HostWindow.SetWindowState(Dock.Model.Core.DockWindowState)
+  name: SetWindowState(DockWindowState)
+  href: api/Dock.Avalonia.Controls.HostWindow.html#Dock_Avalonia_Controls_HostWindow_SetWindowState_Dock_Model_Core_DockWindowState_
+  commentId: M:Dock.Avalonia.Controls.HostWindow.SetWindowState(Dock.Model.Core.DockWindowState)
+  fullName: Dock.Avalonia.Controls.HostWindow.SetWindowState(Dock.Model.Core.DockWindowState)
+  nameWithType: HostWindow.SetWindowState(DockWindowState)
+- uid: Dock.Avalonia.Controls.HostWindow.SetWindowState*
+  name: SetWindowState
+  href: api/Dock.Avalonia.Controls.HostWindow.html#Dock_Avalonia_Controls_HostWindow_SetWindowState_
+  commentId: Overload:Dock.Avalonia.Controls.HostWindow.SetWindowState
+  isSpec: "True"
+  fullName: Dock.Avalonia.Controls.HostWindow.SetWindowState
+  nameWithType: HostWindow.SetWindowState
 - uid: Dock.Avalonia.Controls.HostWindow.StyleKeyOverride
   name: StyleKeyOverride
   href: api/Dock.Avalonia.Controls.HostWindow.html#Dock_Avalonia_Controls_HostWindow_StyleKeyOverride
@@ -3224,6 +3336,19 @@ references:
   isSpec: "True"
   fullName: Dock.Avalonia.Controls.ManagedDockableBase.DockGroup
   nameWithType: ManagedDockableBase.DockGroup
+- uid: Dock.Avalonia.Controls.ManagedDockableBase.DockingState
+  name: DockingState
+  href: api/Dock.Avalonia.Controls.ManagedDockableBase.html#Dock_Avalonia_Controls_ManagedDockableBase_DockingState
+  commentId: P:Dock.Avalonia.Controls.ManagedDockableBase.DockingState
+  fullName: Dock.Avalonia.Controls.ManagedDockableBase.DockingState
+  nameWithType: ManagedDockableBase.DockingState
+- uid: Dock.Avalonia.Controls.ManagedDockableBase.DockingState*
+  name: DockingState
+  href: api/Dock.Avalonia.Controls.ManagedDockableBase.html#Dock_Avalonia_Controls_ManagedDockableBase_DockingState_
+  commentId: Overload:Dock.Avalonia.Controls.ManagedDockableBase.DockingState
+  isSpec: "True"
+  fullName: Dock.Avalonia.Controls.ManagedDockableBase.DockingState
+  nameWithType: ManagedDockableBase.DockingState
 - uid: Dock.Avalonia.Controls.ManagedDockableBase.Factory
   name: Factory
   href: api/Dock.Avalonia.Controls.ManagedDockableBase.html#Dock_Avalonia_Controls_ManagedDockableBase_Factory
@@ -3893,6 +4018,19 @@ references:
   isSpec: "True"
   fullName: Dock.Avalonia.Controls.ManagedHostWindow.GetSize
   nameWithType: ManagedHostWindow.GetSize
+- uid: Dock.Avalonia.Controls.ManagedHostWindow.GetWindowState
+  name: GetWindowState()
+  href: api/Dock.Avalonia.Controls.ManagedHostWindow.html#Dock_Avalonia_Controls_ManagedHostWindow_GetWindowState
+  commentId: M:Dock.Avalonia.Controls.ManagedHostWindow.GetWindowState
+  fullName: Dock.Avalonia.Controls.ManagedHostWindow.GetWindowState()
+  nameWithType: ManagedHostWindow.GetWindowState()
+- uid: Dock.Avalonia.Controls.ManagedHostWindow.GetWindowState*
+  name: GetWindowState
+  href: api/Dock.Avalonia.Controls.ManagedHostWindow.html#Dock_Avalonia_Controls_ManagedHostWindow_GetWindowState_
+  commentId: Overload:Dock.Avalonia.Controls.ManagedHostWindow.GetWindowState
+  isSpec: "True"
+  fullName: Dock.Avalonia.Controls.ManagedHostWindow.GetWindowState
+  nameWithType: ManagedHostWindow.GetWindowState
 - uid: Dock.Avalonia.Controls.ManagedHostWindow.HostWindowState
   name: HostWindowState
   href: api/Dock.Avalonia.Controls.ManagedHostWindow.html#Dock_Avalonia_Controls_ManagedHostWindow_HostWindowState
@@ -4022,6 +4160,19 @@ references:
   isSpec: "True"
   fullName: Dock.Avalonia.Controls.ManagedHostWindow.SetTitle
   nameWithType: ManagedHostWindow.SetTitle
+- uid: Dock.Avalonia.Controls.ManagedHostWindow.SetWindowState(Dock.Model.Core.DockWindowState)
+  name: SetWindowState(DockWindowState)
+  href: api/Dock.Avalonia.Controls.ManagedHostWindow.html#Dock_Avalonia_Controls_ManagedHostWindow_SetWindowState_Dock_Model_Core_DockWindowState_
+  commentId: M:Dock.Avalonia.Controls.ManagedHostWindow.SetWindowState(Dock.Model.Core.DockWindowState)
+  fullName: Dock.Avalonia.Controls.ManagedHostWindow.SetWindowState(Dock.Model.Core.DockWindowState)
+  nameWithType: ManagedHostWindow.SetWindowState(DockWindowState)
+- uid: Dock.Avalonia.Controls.ManagedHostWindow.SetWindowState*
+  name: SetWindowState
+  href: api/Dock.Avalonia.Controls.ManagedHostWindow.html#Dock_Avalonia_Controls_ManagedHostWindow_SetWindowState_
+  commentId: Overload:Dock.Avalonia.Controls.ManagedHostWindow.SetWindowState
+  isSpec: "True"
+  fullName: Dock.Avalonia.Controls.ManagedHostWindow.SetWindowState
+  nameWithType: ManagedHostWindow.SetWindowState
 - uid: Dock.Avalonia.Controls.ManagedHostWindow.Window
   name: Window
   href: api/Dock.Avalonia.Controls.ManagedHostWindow.html#Dock_Avalonia_Controls_ManagedHostWindow_Window
@@ -4341,6 +4492,19 @@ references:
   isSpec: "True"
   fullName: Dock.Avalonia.Controls.ManagedWindowLayer.OnApplyTemplate
   nameWithType: ManagedWindowLayer.OnApplyTemplate
+- uid: Dock.Avalonia.Controls.ManagedWindowLayer.OnDetachedFromVisualTree(Avalonia.VisualTreeAttachmentEventArgs)
+  name: OnDetachedFromVisualTree(VisualTreeAttachmentEventArgs)
+  href: api/Dock.Avalonia.Controls.ManagedWindowLayer.html#Dock_Avalonia_Controls_ManagedWindowLayer_OnDetachedFromVisualTree_Avalonia_VisualTreeAttachmentEventArgs_
+  commentId: M:Dock.Avalonia.Controls.ManagedWindowLayer.OnDetachedFromVisualTree(Avalonia.VisualTreeAttachmentEventArgs)
+  fullName: Dock.Avalonia.Controls.ManagedWindowLayer.OnDetachedFromVisualTree(Avalonia.VisualTreeAttachmentEventArgs)
+  nameWithType: ManagedWindowLayer.OnDetachedFromVisualTree(VisualTreeAttachmentEventArgs)
+- uid: Dock.Avalonia.Controls.ManagedWindowLayer.OnDetachedFromVisualTree*
+  name: OnDetachedFromVisualTree
+  href: api/Dock.Avalonia.Controls.ManagedWindowLayer.html#Dock_Avalonia_Controls_ManagedWindowLayer_OnDetachedFromVisualTree_
+  commentId: Overload:Dock.Avalonia.Controls.ManagedWindowLayer.OnDetachedFromVisualTree
+  isSpec: "True"
+  fullName: Dock.Avalonia.Controls.ManagedWindowLayer.OnDetachedFromVisualTree
+  nameWithType: ManagedWindowLayer.OnDetachedFromVisualTree
 - uid: Dock.Avalonia.Controls.ManagedWindowLayer.OnPropertyChanged(Avalonia.AvaloniaPropertyChangedEventArgs)
   name: OnPropertyChanged(AvaloniaPropertyChangedEventArgs)
   href: api/Dock.Avalonia.Controls.ManagedWindowLayer.html#Dock_Avalonia_Controls_ManagedWindowLayer_OnPropertyChanged_Avalonia_AvaloniaPropertyChangedEventArgs_
@@ -4455,6 +4619,44 @@ references:
   commentId: F:Dock.Avalonia.Controls.MdiDocumentControl.CloseTemplateProperty
   fullName: Dock.Avalonia.Controls.MdiDocumentControl.CloseTemplateProperty
   nameWithType: MdiDocumentControl.CloseTemplateProperty
+- uid: Dock.Avalonia.Controls.MdiDocumentControl.EmptyContentTemplate
+  name: EmptyContentTemplate
+  href: api/Dock.Avalonia.Controls.MdiDocumentControl.html#Dock_Avalonia_Controls_MdiDocumentControl_EmptyContentTemplate
+  commentId: P:Dock.Avalonia.Controls.MdiDocumentControl.EmptyContentTemplate
+  fullName: Dock.Avalonia.Controls.MdiDocumentControl.EmptyContentTemplate
+  nameWithType: MdiDocumentControl.EmptyContentTemplate
+- uid: Dock.Avalonia.Controls.MdiDocumentControl.EmptyContentTemplate*
+  name: EmptyContentTemplate
+  href: api/Dock.Avalonia.Controls.MdiDocumentControl.html#Dock_Avalonia_Controls_MdiDocumentControl_EmptyContentTemplate_
+  commentId: Overload:Dock.Avalonia.Controls.MdiDocumentControl.EmptyContentTemplate
+  isSpec: "True"
+  fullName: Dock.Avalonia.Controls.MdiDocumentControl.EmptyContentTemplate
+  nameWithType: MdiDocumentControl.EmptyContentTemplate
+- uid: Dock.Avalonia.Controls.MdiDocumentControl.EmptyContentTemplateProperty
+  name: EmptyContentTemplateProperty
+  href: api/Dock.Avalonia.Controls.MdiDocumentControl.html#Dock_Avalonia_Controls_MdiDocumentControl_EmptyContentTemplateProperty
+  commentId: F:Dock.Avalonia.Controls.MdiDocumentControl.EmptyContentTemplateProperty
+  fullName: Dock.Avalonia.Controls.MdiDocumentControl.EmptyContentTemplateProperty
+  nameWithType: MdiDocumentControl.EmptyContentTemplateProperty
+- uid: Dock.Avalonia.Controls.MdiDocumentControl.HasVisibleDocuments
+  name: HasVisibleDocuments
+  href: api/Dock.Avalonia.Controls.MdiDocumentControl.html#Dock_Avalonia_Controls_MdiDocumentControl_HasVisibleDocuments
+  commentId: P:Dock.Avalonia.Controls.MdiDocumentControl.HasVisibleDocuments
+  fullName: Dock.Avalonia.Controls.MdiDocumentControl.HasVisibleDocuments
+  nameWithType: MdiDocumentControl.HasVisibleDocuments
+- uid: Dock.Avalonia.Controls.MdiDocumentControl.HasVisibleDocuments*
+  name: HasVisibleDocuments
+  href: api/Dock.Avalonia.Controls.MdiDocumentControl.html#Dock_Avalonia_Controls_MdiDocumentControl_HasVisibleDocuments_
+  commentId: Overload:Dock.Avalonia.Controls.MdiDocumentControl.HasVisibleDocuments
+  isSpec: "True"
+  fullName: Dock.Avalonia.Controls.MdiDocumentControl.HasVisibleDocuments
+  nameWithType: MdiDocumentControl.HasVisibleDocuments
+- uid: Dock.Avalonia.Controls.MdiDocumentControl.HasVisibleDocumentsProperty
+  name: HasVisibleDocumentsProperty
+  href: api/Dock.Avalonia.Controls.MdiDocumentControl.html#Dock_Avalonia_Controls_MdiDocumentControl_HasVisibleDocumentsProperty
+  commentId: F:Dock.Avalonia.Controls.MdiDocumentControl.HasVisibleDocumentsProperty
+  fullName: Dock.Avalonia.Controls.MdiDocumentControl.HasVisibleDocumentsProperty
+  nameWithType: MdiDocumentControl.HasVisibleDocumentsProperty
 - uid: Dock.Avalonia.Controls.MdiDocumentControl.HeaderTemplate
   name: HeaderTemplate
   href: api/Dock.Avalonia.Controls.MdiDocumentControl.html#Dock_Avalonia_Controls_MdiDocumentControl_HeaderTemplate
@@ -7197,6 +7399,25 @@ references:
   isSpec: "True"
   fullName: Dock.Avalonia.Controls.ToolTabStrip.CreateContainerForItemOverride
   nameWithType: ToolTabStrip.CreateContainerForItemOverride
+- uid: Dock.Avalonia.Controls.ToolTabStrip.MouseWheelScrollOrientation
+  name: MouseWheelScrollOrientation
+  href: api/Dock.Avalonia.Controls.ToolTabStrip.html#Dock_Avalonia_Controls_ToolTabStrip_MouseWheelScrollOrientation
+  commentId: P:Dock.Avalonia.Controls.ToolTabStrip.MouseWheelScrollOrientation
+  fullName: Dock.Avalonia.Controls.ToolTabStrip.MouseWheelScrollOrientation
+  nameWithType: ToolTabStrip.MouseWheelScrollOrientation
+- uid: Dock.Avalonia.Controls.ToolTabStrip.MouseWheelScrollOrientation*
+  name: MouseWheelScrollOrientation
+  href: api/Dock.Avalonia.Controls.ToolTabStrip.html#Dock_Avalonia_Controls_ToolTabStrip_MouseWheelScrollOrientation_
+  commentId: Overload:Dock.Avalonia.Controls.ToolTabStrip.MouseWheelScrollOrientation
+  isSpec: "True"
+  fullName: Dock.Avalonia.Controls.ToolTabStrip.MouseWheelScrollOrientation
+  nameWithType: ToolTabStrip.MouseWheelScrollOrientation
+- uid: Dock.Avalonia.Controls.ToolTabStrip.MouseWheelScrollOrientationProperty
+  name: MouseWheelScrollOrientationProperty
+  href: api/Dock.Avalonia.Controls.ToolTabStrip.html#Dock_Avalonia_Controls_ToolTabStrip_MouseWheelScrollOrientationProperty
+  commentId: F:Dock.Avalonia.Controls.ToolTabStrip.MouseWheelScrollOrientationProperty
+  fullName: Dock.Avalonia.Controls.ToolTabStrip.MouseWheelScrollOrientationProperty
+  nameWithType: ToolTabStrip.MouseWheelScrollOrientationProperty
 - uid: Dock.Avalonia.Controls.ToolTabStrip.NeedsContainerOverride(System.Object,System.Int32,System.Object@)
   name: NeedsContainerOverride(object?, int, out object?)
   href: api/Dock.Avalonia.Controls.ToolTabStrip.html#Dock_Avalonia_Controls_ToolTabStrip_NeedsContainerOverride_System_Object_System_Int32_System_Object__
@@ -7226,6 +7447,32 @@ references:
   isSpec: "True"
   fullName: Dock.Avalonia.Controls.ToolTabStrip.OnApplyTemplate
   nameWithType: ToolTabStrip.OnApplyTemplate
+- uid: Dock.Avalonia.Controls.ToolTabStrip.OnAttachedToVisualTree(Avalonia.VisualTreeAttachmentEventArgs)
+  name: OnAttachedToVisualTree(VisualTreeAttachmentEventArgs)
+  href: api/Dock.Avalonia.Controls.ToolTabStrip.html#Dock_Avalonia_Controls_ToolTabStrip_OnAttachedToVisualTree_Avalonia_VisualTreeAttachmentEventArgs_
+  commentId: M:Dock.Avalonia.Controls.ToolTabStrip.OnAttachedToVisualTree(Avalonia.VisualTreeAttachmentEventArgs)
+  fullName: Dock.Avalonia.Controls.ToolTabStrip.OnAttachedToVisualTree(Avalonia.VisualTreeAttachmentEventArgs)
+  nameWithType: ToolTabStrip.OnAttachedToVisualTree(VisualTreeAttachmentEventArgs)
+- uid: Dock.Avalonia.Controls.ToolTabStrip.OnAttachedToVisualTree*
+  name: OnAttachedToVisualTree
+  href: api/Dock.Avalonia.Controls.ToolTabStrip.html#Dock_Avalonia_Controls_ToolTabStrip_OnAttachedToVisualTree_
+  commentId: Overload:Dock.Avalonia.Controls.ToolTabStrip.OnAttachedToVisualTree
+  isSpec: "True"
+  fullName: Dock.Avalonia.Controls.ToolTabStrip.OnAttachedToVisualTree
+  nameWithType: ToolTabStrip.OnAttachedToVisualTree
+- uid: Dock.Avalonia.Controls.ToolTabStrip.OnDetachedFromVisualTree(Avalonia.VisualTreeAttachmentEventArgs)
+  name: OnDetachedFromVisualTree(VisualTreeAttachmentEventArgs)
+  href: api/Dock.Avalonia.Controls.ToolTabStrip.html#Dock_Avalonia_Controls_ToolTabStrip_OnDetachedFromVisualTree_Avalonia_VisualTreeAttachmentEventArgs_
+  commentId: M:Dock.Avalonia.Controls.ToolTabStrip.OnDetachedFromVisualTree(Avalonia.VisualTreeAttachmentEventArgs)
+  fullName: Dock.Avalonia.Controls.ToolTabStrip.OnDetachedFromVisualTree(Avalonia.VisualTreeAttachmentEventArgs)
+  nameWithType: ToolTabStrip.OnDetachedFromVisualTree(VisualTreeAttachmentEventArgs)
+- uid: Dock.Avalonia.Controls.ToolTabStrip.OnDetachedFromVisualTree*
+  name: OnDetachedFromVisualTree
+  href: api/Dock.Avalonia.Controls.ToolTabStrip.html#Dock_Avalonia_Controls_ToolTabStrip_OnDetachedFromVisualTree_
+  commentId: Overload:Dock.Avalonia.Controls.ToolTabStrip.OnDetachedFromVisualTree
+  isSpec: "True"
+  fullName: Dock.Avalonia.Controls.ToolTabStrip.OnDetachedFromVisualTree
+  nameWithType: ToolTabStrip.OnDetachedFromVisualTree
 - uid: Dock.Avalonia.Controls.ToolTabStrip.OnPropertyChanged(Avalonia.AvaloniaPropertyChangedEventArgs)
   name: OnPropertyChanged(AvaloniaPropertyChangedEventArgs)
   href: api/Dock.Avalonia.Controls.ToolTabStrip.html#Dock_Avalonia_Controls_ToolTabStrip_OnPropertyChanged_Avalonia_AvaloniaPropertyChangedEventArgs_
@@ -11084,6 +11331,25 @@ references:
   commentId: F:Dock.Model.Avalonia.Controls.DocumentDock.DocumentTemplateProperty
   fullName: Dock.Model.Avalonia.Controls.DocumentDock.DocumentTemplateProperty
   nameWithType: DocumentDock.DocumentTemplateProperty
+- uid: Dock.Model.Avalonia.Controls.DocumentDock.EmptyContent
+  name: EmptyContent
+  href: api/Dock.Model.Avalonia.Controls.DocumentDock.html#Dock_Model_Avalonia_Controls_DocumentDock_EmptyContent
+  commentId: P:Dock.Model.Avalonia.Controls.DocumentDock.EmptyContent
+  fullName: Dock.Model.Avalonia.Controls.DocumentDock.EmptyContent
+  nameWithType: DocumentDock.EmptyContent
+- uid: Dock.Model.Avalonia.Controls.DocumentDock.EmptyContent*
+  name: EmptyContent
+  href: api/Dock.Model.Avalonia.Controls.DocumentDock.html#Dock_Model_Avalonia_Controls_DocumentDock_EmptyContent_
+  commentId: Overload:Dock.Model.Avalonia.Controls.DocumentDock.EmptyContent
+  isSpec: "True"
+  fullName: Dock.Model.Avalonia.Controls.DocumentDock.EmptyContent
+  nameWithType: DocumentDock.EmptyContent
+- uid: Dock.Model.Avalonia.Controls.DocumentDock.EmptyContentProperty
+  name: EmptyContentProperty
+  href: api/Dock.Model.Avalonia.Controls.DocumentDock.html#Dock_Model_Avalonia_Controls_DocumentDock_EmptyContentProperty
+  commentId: F:Dock.Model.Avalonia.Controls.DocumentDock.EmptyContentProperty
+  fullName: Dock.Model.Avalonia.Controls.DocumentDock.EmptyContentProperty
+  nameWithType: DocumentDock.EmptyContentProperty
 - uid: Dock.Model.Avalonia.Controls.DocumentDock.EnableWindowDrag
   name: EnableWindowDrag
   href: api/Dock.Model.Avalonia.Controls.DocumentDock.html#Dock_Model_Avalonia_Controls_DocumentDock_EnableWindowDrag
@@ -13037,6 +13303,25 @@ references:
   commentId: F:Dock.Model.Avalonia.Core.DockWindow.WidthProperty
   fullName: Dock.Model.Avalonia.Core.DockWindow.WidthProperty
   nameWithType: DockWindow.WidthProperty
+- uid: Dock.Model.Avalonia.Core.DockWindow.WindowState
+  name: WindowState
+  href: api/Dock.Model.Avalonia.Core.DockWindow.html#Dock_Model_Avalonia_Core_DockWindow_WindowState
+  commentId: P:Dock.Model.Avalonia.Core.DockWindow.WindowState
+  fullName: Dock.Model.Avalonia.Core.DockWindow.WindowState
+  nameWithType: DockWindow.WindowState
+- uid: Dock.Model.Avalonia.Core.DockWindow.WindowState*
+  name: WindowState
+  href: api/Dock.Model.Avalonia.Core.DockWindow.html#Dock_Model_Avalonia_Core_DockWindow_WindowState_
+  commentId: Overload:Dock.Model.Avalonia.Core.DockWindow.WindowState
+  isSpec: "True"
+  fullName: Dock.Model.Avalonia.Core.DockWindow.WindowState
+  nameWithType: DockWindow.WindowState
+- uid: Dock.Model.Avalonia.Core.DockWindow.WindowStateProperty
+  name: WindowStateProperty
+  href: api/Dock.Model.Avalonia.Core.DockWindow.html#Dock_Model_Avalonia_Core_DockWindow_WindowStateProperty
+  commentId: F:Dock.Model.Avalonia.Core.DockWindow.WindowStateProperty
+  fullName: Dock.Model.Avalonia.Core.DockWindow.WindowStateProperty
+  nameWithType: DockWindow.WindowStateProperty
 - uid: Dock.Model.Avalonia.Core.DockWindow.X
   name: X
   href: api/Dock.Model.Avalonia.Core.DockWindow.html#Dock_Model_Avalonia_Core_DockWindow_X
@@ -13366,6 +13651,25 @@ references:
   commentId: F:Dock.Model.Avalonia.Core.DockableBase.DockProperty
   fullName: Dock.Model.Avalonia.Core.DockableBase.DockProperty
   nameWithType: DockableBase.DockProperty
+- uid: Dock.Model.Avalonia.Core.DockableBase.DockingState
+  name: DockingState
+  href: api/Dock.Model.Avalonia.Core.DockableBase.html#Dock_Model_Avalonia_Core_DockableBase_DockingState
+  commentId: P:Dock.Model.Avalonia.Core.DockableBase.DockingState
+  fullName: Dock.Model.Avalonia.Core.DockableBase.DockingState
+  nameWithType: DockableBase.DockingState
+- uid: Dock.Model.Avalonia.Core.DockableBase.DockingState*
+  name: DockingState
+  href: api/Dock.Model.Avalonia.Core.DockableBase.html#Dock_Model_Avalonia_Core_DockableBase_DockingState_
+  commentId: Overload:Dock.Model.Avalonia.Core.DockableBase.DockingState
+  isSpec: "True"
+  fullName: Dock.Model.Avalonia.Core.DockableBase.DockingState
+  nameWithType: DockableBase.DockingState
+- uid: Dock.Model.Avalonia.Core.DockableBase.DockingStateProperty
+  name: DockingStateProperty
+  href: api/Dock.Model.Avalonia.Core.DockableBase.html#Dock_Model_Avalonia_Core_DockableBase_DockingStateProperty
+  commentId: F:Dock.Model.Avalonia.Core.DockableBase.DockingStateProperty
+  fullName: Dock.Model.Avalonia.Core.DockableBase.DockingStateProperty
+  nameWithType: DockableBase.DockingStateProperty
 - uid: Dock.Model.Avalonia.Core.DockableBase.Factory
   name: Factory
   href: api/Dock.Model.Avalonia.Core.DockableBase.html#Dock_Model_Avalonia_Core_DockableBase_Factory
@@ -14796,6 +15100,19 @@ references:
   isSpec: "True"
   fullName: Dock.Model.CaliburMicro.Controls.DocumentDock.DocumentFactory
   nameWithType: DocumentDock.DocumentFactory
+- uid: Dock.Model.CaliburMicro.Controls.DocumentDock.EmptyContent
+  name: EmptyContent
+  href: api/Dock.Model.CaliburMicro.Controls.DocumentDock.html#Dock_Model_CaliburMicro_Controls_DocumentDock_EmptyContent
+  commentId: P:Dock.Model.CaliburMicro.Controls.DocumentDock.EmptyContent
+  fullName: Dock.Model.CaliburMicro.Controls.DocumentDock.EmptyContent
+  nameWithType: DocumentDock.EmptyContent
+- uid: Dock.Model.CaliburMicro.Controls.DocumentDock.EmptyContent*
+  name: EmptyContent
+  href: api/Dock.Model.CaliburMicro.Controls.DocumentDock.html#Dock_Model_CaliburMicro_Controls_DocumentDock_EmptyContent_
+  commentId: Overload:Dock.Model.CaliburMicro.Controls.DocumentDock.EmptyContent
+  isSpec: "True"
+  fullName: Dock.Model.CaliburMicro.Controls.DocumentDock.EmptyContent
+  nameWithType: DocumentDock.EmptyContent
 - uid: Dock.Model.CaliburMicro.Controls.DocumentDock.EnableWindowDrag
   name: EnableWindowDrag
   href: api/Dock.Model.CaliburMicro.Controls.DocumentDock.html#Dock_Model_CaliburMicro_Controls_DocumentDock_EnableWindowDrag
@@ -16051,6 +16368,19 @@ references:
   isSpec: "True"
   fullName: Dock.Model.CaliburMicro.Core.DockWindow.Width
   nameWithType: DockWindow.Width
+- uid: Dock.Model.CaliburMicro.Core.DockWindow.WindowState
+  name: WindowState
+  href: api/Dock.Model.CaliburMicro.Core.DockWindow.html#Dock_Model_CaliburMicro_Core_DockWindow_WindowState
+  commentId: P:Dock.Model.CaliburMicro.Core.DockWindow.WindowState
+  fullName: Dock.Model.CaliburMicro.Core.DockWindow.WindowState
+  nameWithType: DockWindow.WindowState
+- uid: Dock.Model.CaliburMicro.Core.DockWindow.WindowState*
+  name: WindowState
+  href: api/Dock.Model.CaliburMicro.Core.DockWindow.html#Dock_Model_CaliburMicro_Core_DockWindow_WindowState_
+  commentId: Overload:Dock.Model.CaliburMicro.Core.DockWindow.WindowState
+  isSpec: "True"
+  fullName: Dock.Model.CaliburMicro.Core.DockWindow.WindowState
+  nameWithType: DockWindow.WindowState
 - uid: Dock.Model.CaliburMicro.Core.DockWindow.X
   name: X
   href: api/Dock.Model.CaliburMicro.Core.DockWindow.html#Dock_Model_CaliburMicro_Core_DockWindow_X
@@ -16284,6 +16614,19 @@ references:
   isSpec: "True"
   fullName: Dock.Model.CaliburMicro.Core.DockableBase.DockGroup
   nameWithType: DockableBase.DockGroup
+- uid: Dock.Model.CaliburMicro.Core.DockableBase.DockingState
+  name: DockingState
+  href: api/Dock.Model.CaliburMicro.Core.DockableBase.html#Dock_Model_CaliburMicro_Core_DockableBase_DockingState
+  commentId: P:Dock.Model.CaliburMicro.Core.DockableBase.DockingState
+  fullName: Dock.Model.CaliburMicro.Core.DockableBase.DockingState
+  nameWithType: DockableBase.DockingState
+- uid: Dock.Model.CaliburMicro.Core.DockableBase.DockingState*
+  name: DockingState
+  href: api/Dock.Model.CaliburMicro.Core.DockableBase.html#Dock_Model_CaliburMicro_Core_DockableBase_DockingState_
+  commentId: Overload:Dock.Model.CaliburMicro.Core.DockableBase.DockingState
+  isSpec: "True"
+  fullName: Dock.Model.CaliburMicro.Core.DockableBase.DockingState
+  nameWithType: DockableBase.DockingState
 - uid: Dock.Model.CaliburMicro.Core.DockableBase.Factory
   name: Factory
   href: api/Dock.Model.CaliburMicro.Core.DockableBase.html#Dock_Model_CaliburMicro_Core_DockableBase_Factory
@@ -17838,6 +18181,19 @@ references:
   isSpec: "True"
   fullName: Dock.Model.Controls.IDocumentDock.CreateDocument
   nameWithType: IDocumentDock.CreateDocument
+- uid: Dock.Model.Controls.IDocumentDock.EmptyContent
+  name: EmptyContent
+  href: api/Dock.Model.Controls.IDocumentDock.html#Dock_Model_Controls_IDocumentDock_EmptyContent
+  commentId: P:Dock.Model.Controls.IDocumentDock.EmptyContent
+  fullName: Dock.Model.Controls.IDocumentDock.EmptyContent
+  nameWithType: IDocumentDock.EmptyContent
+- uid: Dock.Model.Controls.IDocumentDock.EmptyContent*
+  name: EmptyContent
+  href: api/Dock.Model.Controls.IDocumentDock.html#Dock_Model_Controls_IDocumentDock_EmptyContent_
+  commentId: Overload:Dock.Model.Controls.IDocumentDock.EmptyContent
+  isSpec: "True"
+  fullName: Dock.Model.Controls.IDocumentDock.EmptyContent
+  nameWithType: IDocumentDock.EmptyContent
 - uid: Dock.Model.Controls.IDocumentDock.EnableWindowDrag
   name: EnableWindowDrag
   href: api/Dock.Model.Controls.IDocumentDock.html#Dock_Model_Controls_IDocumentDock_EnableWindowDrag
@@ -19128,6 +19484,66 @@ references:
   isSpec: "True"
   fullName: Dock.Model.Core.DockRect.Y
   nameWithType: DockRect.Y
+- uid: Dock.Model.Core.DockTrackingChangeReason
+  name: DockTrackingChangeReason
+  href: api/Dock.Model.Core.DockTrackingChangeReason.html
+  commentId: T:Dock.Model.Core.DockTrackingChangeReason
+  fullName: Dock.Model.Core.DockTrackingChangeReason
+  nameWithType: DockTrackingChangeReason
+- uid: Dock.Model.Core.DockTrackingChangeReason.ActiveDockableChanged
+  name: ActiveDockableChanged
+  href: api/Dock.Model.Core.DockTrackingChangeReason.html#Dock_Model_Core_DockTrackingChangeReason_ActiveDockableChanged
+  commentId: F:Dock.Model.Core.DockTrackingChangeReason.ActiveDockableChanged
+  fullName: Dock.Model.Core.DockTrackingChangeReason.ActiveDockableChanged
+  nameWithType: DockTrackingChangeReason.ActiveDockableChanged
+- uid: Dock.Model.Core.DockTrackingChangeReason.DockableActivated
+  name: DockableActivated
+  href: api/Dock.Model.Core.DockTrackingChangeReason.html#Dock_Model_Core_DockTrackingChangeReason_DockableActivated
+  commentId: F:Dock.Model.Core.DockTrackingChangeReason.DockableActivated
+  fullName: Dock.Model.Core.DockTrackingChangeReason.DockableActivated
+  nameWithType: DockTrackingChangeReason.DockableActivated
+- uid: Dock.Model.Core.DockTrackingChangeReason.DockableDeactivated
+  name: DockableDeactivated
+  href: api/Dock.Model.Core.DockTrackingChangeReason.html#Dock_Model_Core_DockTrackingChangeReason_DockableDeactivated
+  commentId: F:Dock.Model.Core.DockTrackingChangeReason.DockableDeactivated
+  fullName: Dock.Model.Core.DockTrackingChangeReason.DockableDeactivated
+  nameWithType: DockTrackingChangeReason.DockableDeactivated
+- uid: Dock.Model.Core.DockTrackingChangeReason.FocusedDockableChanged
+  name: FocusedDockableChanged
+  href: api/Dock.Model.Core.DockTrackingChangeReason.html#Dock_Model_Core_DockTrackingChangeReason_FocusedDockableChanged
+  commentId: F:Dock.Model.Core.DockTrackingChangeReason.FocusedDockableChanged
+  fullName: Dock.Model.Core.DockTrackingChangeReason.FocusedDockableChanged
+  nameWithType: DockTrackingChangeReason.FocusedDockableChanged
+- uid: Dock.Model.Core.DockTrackingChangeReason.Unknown
+  name: Unknown
+  href: api/Dock.Model.Core.DockTrackingChangeReason.html#Dock_Model_Core_DockTrackingChangeReason_Unknown
+  commentId: F:Dock.Model.Core.DockTrackingChangeReason.Unknown
+  fullName: Dock.Model.Core.DockTrackingChangeReason.Unknown
+  nameWithType: DockTrackingChangeReason.Unknown
+- uid: Dock.Model.Core.DockTrackingChangeReason.WindowActivated
+  name: WindowActivated
+  href: api/Dock.Model.Core.DockTrackingChangeReason.html#Dock_Model_Core_DockTrackingChangeReason_WindowActivated
+  commentId: F:Dock.Model.Core.DockTrackingChangeReason.WindowActivated
+  fullName: Dock.Model.Core.DockTrackingChangeReason.WindowActivated
+  nameWithType: DockTrackingChangeReason.WindowActivated
+- uid: Dock.Model.Core.DockTrackingChangeReason.WindowClosed
+  name: WindowClosed
+  href: api/Dock.Model.Core.DockTrackingChangeReason.html#Dock_Model_Core_DockTrackingChangeReason_WindowClosed
+  commentId: F:Dock.Model.Core.DockTrackingChangeReason.WindowClosed
+  fullName: Dock.Model.Core.DockTrackingChangeReason.WindowClosed
+  nameWithType: DockTrackingChangeReason.WindowClosed
+- uid: Dock.Model.Core.DockTrackingChangeReason.WindowDeactivated
+  name: WindowDeactivated
+  href: api/Dock.Model.Core.DockTrackingChangeReason.html#Dock_Model_Core_DockTrackingChangeReason_WindowDeactivated
+  commentId: F:Dock.Model.Core.DockTrackingChangeReason.WindowDeactivated
+  fullName: Dock.Model.Core.DockTrackingChangeReason.WindowDeactivated
+  nameWithType: DockTrackingChangeReason.WindowDeactivated
+- uid: Dock.Model.Core.DockTrackingChangeReason.WindowRemoved
+  name: WindowRemoved
+  href: api/Dock.Model.Core.DockTrackingChangeReason.html#Dock_Model_Core_DockTrackingChangeReason_WindowRemoved
+  commentId: F:Dock.Model.Core.DockTrackingChangeReason.WindowRemoved
+  fullName: Dock.Model.Core.DockTrackingChangeReason.WindowRemoved
+  nameWithType: DockTrackingChangeReason.WindowRemoved
 - uid: Dock.Model.Core.DockWindowOptions
   name: DockWindowOptions
   href: api/Dock.Model.Core.DockWindowOptions.html
@@ -19235,6 +19651,78 @@ references:
   commentId: F:Dock.Model.Core.DockWindowOwnerMode.RootWindow
   fullName: Dock.Model.Core.DockWindowOwnerMode.RootWindow
   nameWithType: DockWindowOwnerMode.RootWindow
+- uid: Dock.Model.Core.DockWindowState
+  name: DockWindowState
+  href: api/Dock.Model.Core.DockWindowState.html
+  commentId: T:Dock.Model.Core.DockWindowState
+  fullName: Dock.Model.Core.DockWindowState
+  nameWithType: DockWindowState
+- uid: Dock.Model.Core.DockWindowState.FullScreen
+  name: FullScreen
+  href: api/Dock.Model.Core.DockWindowState.html#Dock_Model_Core_DockWindowState_FullScreen
+  commentId: F:Dock.Model.Core.DockWindowState.FullScreen
+  fullName: Dock.Model.Core.DockWindowState.FullScreen
+  nameWithType: DockWindowState.FullScreen
+- uid: Dock.Model.Core.DockWindowState.Maximized
+  name: Maximized
+  href: api/Dock.Model.Core.DockWindowState.html#Dock_Model_Core_DockWindowState_Maximized
+  commentId: F:Dock.Model.Core.DockWindowState.Maximized
+  fullName: Dock.Model.Core.DockWindowState.Maximized
+  nameWithType: DockWindowState.Maximized
+- uid: Dock.Model.Core.DockWindowState.Minimized
+  name: Minimized
+  href: api/Dock.Model.Core.DockWindowState.html#Dock_Model_Core_DockWindowState_Minimized
+  commentId: F:Dock.Model.Core.DockWindowState.Minimized
+  fullName: Dock.Model.Core.DockWindowState.Minimized
+  nameWithType: DockWindowState.Minimized
+- uid: Dock.Model.Core.DockWindowState.Normal
+  name: Normal
+  href: api/Dock.Model.Core.DockWindowState.html#Dock_Model_Core_DockWindowState_Normal
+  commentId: F:Dock.Model.Core.DockWindowState.Normal
+  fullName: Dock.Model.Core.DockWindowState.Normal
+  nameWithType: DockWindowState.Normal
+- uid: Dock.Model.Core.DockingWindowState
+  name: DockingWindowState
+  href: api/Dock.Model.Core.DockingWindowState.html
+  commentId: T:Dock.Model.Core.DockingWindowState
+  fullName: Dock.Model.Core.DockingWindowState
+  nameWithType: DockingWindowState
+- uid: Dock.Model.Core.DockingWindowState.Docked
+  name: Docked
+  href: api/Dock.Model.Core.DockingWindowState.html#Dock_Model_Core_DockingWindowState_Docked
+  commentId: F:Dock.Model.Core.DockingWindowState.Docked
+  fullName: Dock.Model.Core.DockingWindowState.Docked
+  nameWithType: DockingWindowState.Docked
+- uid: Dock.Model.Core.DockingWindowState.Document
+  name: Document
+  href: api/Dock.Model.Core.DockingWindowState.html#Dock_Model_Core_DockingWindowState_Document
+  commentId: F:Dock.Model.Core.DockingWindowState.Document
+  fullName: Dock.Model.Core.DockingWindowState.Document
+  nameWithType: DockingWindowState.Document
+- uid: Dock.Model.Core.DockingWindowState.Floating
+  name: Floating
+  href: api/Dock.Model.Core.DockingWindowState.html#Dock_Model_Core_DockingWindowState_Floating
+  commentId: F:Dock.Model.Core.DockingWindowState.Floating
+  fullName: Dock.Model.Core.DockingWindowState.Floating
+  nameWithType: DockingWindowState.Floating
+- uid: Dock.Model.Core.DockingWindowState.Hidden
+  name: Hidden
+  href: api/Dock.Model.Core.DockingWindowState.html#Dock_Model_Core_DockingWindowState_Hidden
+  commentId: F:Dock.Model.Core.DockingWindowState.Hidden
+  fullName: Dock.Model.Core.DockingWindowState.Hidden
+  nameWithType: DockingWindowState.Hidden
+- uid: Dock.Model.Core.DockingWindowState.None
+  name: None
+  href: api/Dock.Model.Core.DockingWindowState.html#Dock_Model_Core_DockingWindowState_None
+  commentId: F:Dock.Model.Core.DockingWindowState.None
+  fullName: Dock.Model.Core.DockingWindowState.None
+  nameWithType: DockingWindowState.None
+- uid: Dock.Model.Core.DockingWindowState.Pinned
+  name: Pinned
+  href: api/Dock.Model.Core.DockingWindowState.html#Dock_Model_Core_DockingWindowState_Pinned
+  commentId: F:Dock.Model.Core.DockingWindowState.Pinned
+  fullName: Dock.Model.Core.DockingWindowState.Pinned
+  nameWithType: DockingWindowState.Pinned
 - uid: Dock.Model.Core.DocumentCloseButtonShowMode
   name: DocumentCloseButtonShowMode
   href: api/Dock.Model.Core.DocumentCloseButtonShowMode.html
@@ -19352,6 +19840,15 @@ references:
   fullName.vb: Dock.Model.Core.Events.ActiveDockableChangedEventArgs.New(Dock.Model.Core.IDockable)
   nameWithType: ActiveDockableChangedEventArgs.ActiveDockableChangedEventArgs(IDockable?)
   nameWithType.vb: ActiveDockableChangedEventArgs.New(IDockable)
+- uid: Dock.Model.Core.Events.ActiveDockableChangedEventArgs.#ctor(Dock.Model.Core.IDockable,Dock.Model.Controls.IRootDock,Dock.Model.Core.IDockWindow)
+  name: ActiveDockableChangedEventArgs(IDockable?, IRootDock?, IDockWindow?)
+  href: api/Dock.Model.Core.Events.ActiveDockableChangedEventArgs.html#Dock_Model_Core_Events_ActiveDockableChangedEventArgs__ctor_Dock_Model_Core_IDockable_Dock_Model_Controls_IRootDock_Dock_Model_Core_IDockWindow_
+  commentId: M:Dock.Model.Core.Events.ActiveDockableChangedEventArgs.#ctor(Dock.Model.Core.IDockable,Dock.Model.Controls.IRootDock,Dock.Model.Core.IDockWindow)
+  name.vb: New(IDockable, IRootDock, IDockWindow)
+  fullName: Dock.Model.Core.Events.ActiveDockableChangedEventArgs.ActiveDockableChangedEventArgs(Dock.Model.Core.IDockable?, Dock.Model.Controls.IRootDock?, Dock.Model.Core.IDockWindow?)
+  fullName.vb: Dock.Model.Core.Events.ActiveDockableChangedEventArgs.New(Dock.Model.Core.IDockable, Dock.Model.Controls.IRootDock, Dock.Model.Core.IDockWindow)
+  nameWithType: ActiveDockableChangedEventArgs.ActiveDockableChangedEventArgs(IDockable?, IRootDock?, IDockWindow?)
+  nameWithType.vb: ActiveDockableChangedEventArgs.New(IDockable, IRootDock, IDockWindow)
 - uid: Dock.Model.Core.Events.ActiveDockableChangedEventArgs.#ctor*
   name: ActiveDockableChangedEventArgs
   href: api/Dock.Model.Core.Events.ActiveDockableChangedEventArgs.html#Dock_Model_Core_Events_ActiveDockableChangedEventArgs__ctor_
@@ -19375,6 +19872,45 @@ references:
   isSpec: "True"
   fullName: Dock.Model.Core.Events.ActiveDockableChangedEventArgs.Dockable
   nameWithType: ActiveDockableChangedEventArgs.Dockable
+- uid: Dock.Model.Core.Events.ActiveDockableChangedEventArgs.HostWindow
+  name: HostWindow
+  href: api/Dock.Model.Core.Events.ActiveDockableChangedEventArgs.html#Dock_Model_Core_Events_ActiveDockableChangedEventArgs_HostWindow
+  commentId: P:Dock.Model.Core.Events.ActiveDockableChangedEventArgs.HostWindow
+  fullName: Dock.Model.Core.Events.ActiveDockableChangedEventArgs.HostWindow
+  nameWithType: ActiveDockableChangedEventArgs.HostWindow
+- uid: Dock.Model.Core.Events.ActiveDockableChangedEventArgs.HostWindow*
+  name: HostWindow
+  href: api/Dock.Model.Core.Events.ActiveDockableChangedEventArgs.html#Dock_Model_Core_Events_ActiveDockableChangedEventArgs_HostWindow_
+  commentId: Overload:Dock.Model.Core.Events.ActiveDockableChangedEventArgs.HostWindow
+  isSpec: "True"
+  fullName: Dock.Model.Core.Events.ActiveDockableChangedEventArgs.HostWindow
+  nameWithType: ActiveDockableChangedEventArgs.HostWindow
+- uid: Dock.Model.Core.Events.ActiveDockableChangedEventArgs.RootDock
+  name: RootDock
+  href: api/Dock.Model.Core.Events.ActiveDockableChangedEventArgs.html#Dock_Model_Core_Events_ActiveDockableChangedEventArgs_RootDock
+  commentId: P:Dock.Model.Core.Events.ActiveDockableChangedEventArgs.RootDock
+  fullName: Dock.Model.Core.Events.ActiveDockableChangedEventArgs.RootDock
+  nameWithType: ActiveDockableChangedEventArgs.RootDock
+- uid: Dock.Model.Core.Events.ActiveDockableChangedEventArgs.RootDock*
+  name: RootDock
+  href: api/Dock.Model.Core.Events.ActiveDockableChangedEventArgs.html#Dock_Model_Core_Events_ActiveDockableChangedEventArgs_RootDock_
+  commentId: Overload:Dock.Model.Core.Events.ActiveDockableChangedEventArgs.RootDock
+  isSpec: "True"
+  fullName: Dock.Model.Core.Events.ActiveDockableChangedEventArgs.RootDock
+  nameWithType: ActiveDockableChangedEventArgs.RootDock
+- uid: Dock.Model.Core.Events.ActiveDockableChangedEventArgs.Window
+  name: Window
+  href: api/Dock.Model.Core.Events.ActiveDockableChangedEventArgs.html#Dock_Model_Core_Events_ActiveDockableChangedEventArgs_Window
+  commentId: P:Dock.Model.Core.Events.ActiveDockableChangedEventArgs.Window
+  fullName: Dock.Model.Core.Events.ActiveDockableChangedEventArgs.Window
+  nameWithType: ActiveDockableChangedEventArgs.Window
+- uid: Dock.Model.Core.Events.ActiveDockableChangedEventArgs.Window*
+  name: Window
+  href: api/Dock.Model.Core.Events.ActiveDockableChangedEventArgs.html#Dock_Model_Core_Events_ActiveDockableChangedEventArgs_Window_
+  commentId: Overload:Dock.Model.Core.Events.ActiveDockableChangedEventArgs.Window
+  isSpec: "True"
+  fullName: Dock.Model.Core.Events.ActiveDockableChangedEventArgs.Window
+  nameWithType: ActiveDockableChangedEventArgs.Window
 - uid: Dock.Model.Core.Events.DockableActivatedEventArgs
   name: DockableActivatedEventArgs
   href: api/Dock.Model.Core.Events.DockableActivatedEventArgs.html
@@ -20012,6 +20548,15 @@ references:
   fullName.vb: Dock.Model.Core.Events.FocusedDockableChangedEventArgs.New(Dock.Model.Core.IDockable)
   nameWithType: FocusedDockableChangedEventArgs.FocusedDockableChangedEventArgs(IDockable?)
   nameWithType.vb: FocusedDockableChangedEventArgs.New(IDockable)
+- uid: Dock.Model.Core.Events.FocusedDockableChangedEventArgs.#ctor(Dock.Model.Core.IDockable,Dock.Model.Controls.IRootDock,Dock.Model.Core.IDockWindow)
+  name: FocusedDockableChangedEventArgs(IDockable?, IRootDock?, IDockWindow?)
+  href: api/Dock.Model.Core.Events.FocusedDockableChangedEventArgs.html#Dock_Model_Core_Events_FocusedDockableChangedEventArgs__ctor_Dock_Model_Core_IDockable_Dock_Model_Controls_IRootDock_Dock_Model_Core_IDockWindow_
+  commentId: M:Dock.Model.Core.Events.FocusedDockableChangedEventArgs.#ctor(Dock.Model.Core.IDockable,Dock.Model.Controls.IRootDock,Dock.Model.Core.IDockWindow)
+  name.vb: New(IDockable, IRootDock, IDockWindow)
+  fullName: Dock.Model.Core.Events.FocusedDockableChangedEventArgs.FocusedDockableChangedEventArgs(Dock.Model.Core.IDockable?, Dock.Model.Controls.IRootDock?, Dock.Model.Core.IDockWindow?)
+  fullName.vb: Dock.Model.Core.Events.FocusedDockableChangedEventArgs.New(Dock.Model.Core.IDockable, Dock.Model.Controls.IRootDock, Dock.Model.Core.IDockWindow)
+  nameWithType: FocusedDockableChangedEventArgs.FocusedDockableChangedEventArgs(IDockable?, IRootDock?, IDockWindow?)
+  nameWithType.vb: FocusedDockableChangedEventArgs.New(IDockable, IRootDock, IDockWindow)
 - uid: Dock.Model.Core.Events.FocusedDockableChangedEventArgs.#ctor*
   name: FocusedDockableChangedEventArgs
   href: api/Dock.Model.Core.Events.FocusedDockableChangedEventArgs.html#Dock_Model_Core_Events_FocusedDockableChangedEventArgs__ctor_
@@ -20035,6 +20580,109 @@ references:
   isSpec: "True"
   fullName: Dock.Model.Core.Events.FocusedDockableChangedEventArgs.Dockable
   nameWithType: FocusedDockableChangedEventArgs.Dockable
+- uid: Dock.Model.Core.Events.FocusedDockableChangedEventArgs.HostWindow
+  name: HostWindow
+  href: api/Dock.Model.Core.Events.FocusedDockableChangedEventArgs.html#Dock_Model_Core_Events_FocusedDockableChangedEventArgs_HostWindow
+  commentId: P:Dock.Model.Core.Events.FocusedDockableChangedEventArgs.HostWindow
+  fullName: Dock.Model.Core.Events.FocusedDockableChangedEventArgs.HostWindow
+  nameWithType: FocusedDockableChangedEventArgs.HostWindow
+- uid: Dock.Model.Core.Events.FocusedDockableChangedEventArgs.HostWindow*
+  name: HostWindow
+  href: api/Dock.Model.Core.Events.FocusedDockableChangedEventArgs.html#Dock_Model_Core_Events_FocusedDockableChangedEventArgs_HostWindow_
+  commentId: Overload:Dock.Model.Core.Events.FocusedDockableChangedEventArgs.HostWindow
+  isSpec: "True"
+  fullName: Dock.Model.Core.Events.FocusedDockableChangedEventArgs.HostWindow
+  nameWithType: FocusedDockableChangedEventArgs.HostWindow
+- uid: Dock.Model.Core.Events.FocusedDockableChangedEventArgs.RootDock
+  name: RootDock
+  href: api/Dock.Model.Core.Events.FocusedDockableChangedEventArgs.html#Dock_Model_Core_Events_FocusedDockableChangedEventArgs_RootDock
+  commentId: P:Dock.Model.Core.Events.FocusedDockableChangedEventArgs.RootDock
+  fullName: Dock.Model.Core.Events.FocusedDockableChangedEventArgs.RootDock
+  nameWithType: FocusedDockableChangedEventArgs.RootDock
+- uid: Dock.Model.Core.Events.FocusedDockableChangedEventArgs.RootDock*
+  name: RootDock
+  href: api/Dock.Model.Core.Events.FocusedDockableChangedEventArgs.html#Dock_Model_Core_Events_FocusedDockableChangedEventArgs_RootDock_
+  commentId: Overload:Dock.Model.Core.Events.FocusedDockableChangedEventArgs.RootDock
+  isSpec: "True"
+  fullName: Dock.Model.Core.Events.FocusedDockableChangedEventArgs.RootDock
+  nameWithType: FocusedDockableChangedEventArgs.RootDock
+- uid: Dock.Model.Core.Events.FocusedDockableChangedEventArgs.Window
+  name: Window
+  href: api/Dock.Model.Core.Events.FocusedDockableChangedEventArgs.html#Dock_Model_Core_Events_FocusedDockableChangedEventArgs_Window
+  commentId: P:Dock.Model.Core.Events.FocusedDockableChangedEventArgs.Window
+  fullName: Dock.Model.Core.Events.FocusedDockableChangedEventArgs.Window
+  nameWithType: FocusedDockableChangedEventArgs.Window
+- uid: Dock.Model.Core.Events.FocusedDockableChangedEventArgs.Window*
+  name: Window
+  href: api/Dock.Model.Core.Events.FocusedDockableChangedEventArgs.html#Dock_Model_Core_Events_FocusedDockableChangedEventArgs_Window_
+  commentId: Overload:Dock.Model.Core.Events.FocusedDockableChangedEventArgs.Window
+  isSpec: "True"
+  fullName: Dock.Model.Core.Events.FocusedDockableChangedEventArgs.Window
+  nameWithType: FocusedDockableChangedEventArgs.Window
+- uid: Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs
+  name: GlobalDockTrackingChangedEventArgs
+  href: api/Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.html
+  commentId: T:Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs
+  fullName: Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs
+  nameWithType: GlobalDockTrackingChangedEventArgs
+- uid: Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.#ctor(Dock.Model.Core.GlobalDockTrackingState,Dock.Model.Core.GlobalDockTrackingState,Dock.Model.Core.DockTrackingChangeReason)
+  name: GlobalDockTrackingChangedEventArgs(GlobalDockTrackingState, GlobalDockTrackingState, DockTrackingChangeReason)
+  href: api/Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.html#Dock_Model_Core_Events_GlobalDockTrackingChangedEventArgs__ctor_Dock_Model_Core_GlobalDockTrackingState_Dock_Model_Core_GlobalDockTrackingState_Dock_Model_Core_DockTrackingChangeReason_
+  commentId: M:Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.#ctor(Dock.Model.Core.GlobalDockTrackingState,Dock.Model.Core.GlobalDockTrackingState,Dock.Model.Core.DockTrackingChangeReason)
+  name.vb: New(GlobalDockTrackingState, GlobalDockTrackingState, DockTrackingChangeReason)
+  fullName: Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.GlobalDockTrackingChangedEventArgs(Dock.Model.Core.GlobalDockTrackingState, Dock.Model.Core.GlobalDockTrackingState, Dock.Model.Core.DockTrackingChangeReason)
+  fullName.vb: Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.New(Dock.Model.Core.GlobalDockTrackingState, Dock.Model.Core.GlobalDockTrackingState, Dock.Model.Core.DockTrackingChangeReason)
+  nameWithType: GlobalDockTrackingChangedEventArgs.GlobalDockTrackingChangedEventArgs(GlobalDockTrackingState, GlobalDockTrackingState, DockTrackingChangeReason)
+  nameWithType.vb: GlobalDockTrackingChangedEventArgs.New(GlobalDockTrackingState, GlobalDockTrackingState, DockTrackingChangeReason)
+- uid: Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.#ctor*
+  name: GlobalDockTrackingChangedEventArgs
+  href: api/Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.html#Dock_Model_Core_Events_GlobalDockTrackingChangedEventArgs__ctor_
+  commentId: Overload:Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.GlobalDockTrackingChangedEventArgs
+  fullName.vb: Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.New
+  nameWithType: GlobalDockTrackingChangedEventArgs.GlobalDockTrackingChangedEventArgs
+  nameWithType.vb: GlobalDockTrackingChangedEventArgs.New
+- uid: Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.Current
+  name: Current
+  href: api/Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.html#Dock_Model_Core_Events_GlobalDockTrackingChangedEventArgs_Current
+  commentId: P:Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.Current
+  fullName: Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.Current
+  nameWithType: GlobalDockTrackingChangedEventArgs.Current
+- uid: Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.Current*
+  name: Current
+  href: api/Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.html#Dock_Model_Core_Events_GlobalDockTrackingChangedEventArgs_Current_
+  commentId: Overload:Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.Current
+  isSpec: "True"
+  fullName: Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.Current
+  nameWithType: GlobalDockTrackingChangedEventArgs.Current
+- uid: Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.Previous
+  name: Previous
+  href: api/Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.html#Dock_Model_Core_Events_GlobalDockTrackingChangedEventArgs_Previous
+  commentId: P:Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.Previous
+  fullName: Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.Previous
+  nameWithType: GlobalDockTrackingChangedEventArgs.Previous
+- uid: Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.Previous*
+  name: Previous
+  href: api/Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.html#Dock_Model_Core_Events_GlobalDockTrackingChangedEventArgs_Previous_
+  commentId: Overload:Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.Previous
+  isSpec: "True"
+  fullName: Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.Previous
+  nameWithType: GlobalDockTrackingChangedEventArgs.Previous
+- uid: Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.Reason
+  name: Reason
+  href: api/Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.html#Dock_Model_Core_Events_GlobalDockTrackingChangedEventArgs_Reason
+  commentId: P:Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.Reason
+  fullName: Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.Reason
+  nameWithType: GlobalDockTrackingChangedEventArgs.Reason
+- uid: Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.Reason*
+  name: Reason
+  href: api/Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.html#Dock_Model_Core_Events_GlobalDockTrackingChangedEventArgs_Reason_
+  commentId: Overload:Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.Reason
+  isSpec: "True"
+  fullName: Dock.Model.Core.Events.GlobalDockTrackingChangedEventArgs.Reason
+  nameWithType: GlobalDockTrackingChangedEventArgs.Reason
 - uid: Dock.Model.Core.Events.WindowActivatedEventArgs
   name: WindowActivatedEventArgs
   href: api/Dock.Model.Core.Events.WindowActivatedEventArgs.html
@@ -20441,6 +21089,167 @@ references:
   isSpec: "True"
   fullName: Dock.Model.Core.Events.WindowRemovedEventArgs.Window
   nameWithType: WindowRemovedEventArgs.Window
+- uid: Dock.Model.Core.FactoryExtensions
+  name: FactoryExtensions
+  href: api/Dock.Model.Core.FactoryExtensions.html
+  commentId: T:Dock.Model.Core.FactoryExtensions
+  fullName: Dock.Model.Core.FactoryExtensions
+  nameWithType: FactoryExtensions
+- uid: Dock.Model.Core.FactoryExtensions.CloseFocusedDockable(Dock.Model.Core.IFactory)
+  name: CloseFocusedDockable(IFactory)
+  href: api/Dock.Model.Core.FactoryExtensions.html#Dock_Model_Core_FactoryExtensions_CloseFocusedDockable_Dock_Model_Core_IFactory_
+  commentId: M:Dock.Model.Core.FactoryExtensions.CloseFocusedDockable(Dock.Model.Core.IFactory)
+  fullName: Dock.Model.Core.FactoryExtensions.CloseFocusedDockable(Dock.Model.Core.IFactory)
+  nameWithType: FactoryExtensions.CloseFocusedDockable(IFactory)
+- uid: Dock.Model.Core.FactoryExtensions.CloseFocusedDockable*
+  name: CloseFocusedDockable
+  href: api/Dock.Model.Core.FactoryExtensions.html#Dock_Model_Core_FactoryExtensions_CloseFocusedDockable_
+  commentId: Overload:Dock.Model.Core.FactoryExtensions.CloseFocusedDockable
+  isSpec: "True"
+  fullName: Dock.Model.Core.FactoryExtensions.CloseFocusedDockable
+  nameWithType: FactoryExtensions.CloseFocusedDockable
+- uid: Dock.Model.Core.FactoryExtensions.GetActiveRoot(Dock.Model.Core.IFactory)
+  name: GetActiveRoot(IFactory)
+  href: api/Dock.Model.Core.FactoryExtensions.html#Dock_Model_Core_FactoryExtensions_GetActiveRoot_Dock_Model_Core_IFactory_
+  commentId: M:Dock.Model.Core.FactoryExtensions.GetActiveRoot(Dock.Model.Core.IFactory)
+  fullName: Dock.Model.Core.FactoryExtensions.GetActiveRoot(Dock.Model.Core.IFactory)
+  nameWithType: FactoryExtensions.GetActiveRoot(IFactory)
+- uid: Dock.Model.Core.FactoryExtensions.GetActiveRoot*
+  name: GetActiveRoot
+  href: api/Dock.Model.Core.FactoryExtensions.html#Dock_Model_Core_FactoryExtensions_GetActiveRoot_
+  commentId: Overload:Dock.Model.Core.FactoryExtensions.GetActiveRoot
+  isSpec: "True"
+  fullName: Dock.Model.Core.FactoryExtensions.GetActiveRoot
+  nameWithType: FactoryExtensions.GetActiveRoot
+- uid: Dock.Model.Core.FactoryExtensions.GetCurrentDockWindow(Dock.Model.Core.IFactory)
+  name: GetCurrentDockWindow(IFactory)
+  href: api/Dock.Model.Core.FactoryExtensions.html#Dock_Model_Core_FactoryExtensions_GetCurrentDockWindow_Dock_Model_Core_IFactory_
+  commentId: M:Dock.Model.Core.FactoryExtensions.GetCurrentDockWindow(Dock.Model.Core.IFactory)
+  fullName: Dock.Model.Core.FactoryExtensions.GetCurrentDockWindow(Dock.Model.Core.IFactory)
+  nameWithType: FactoryExtensions.GetCurrentDockWindow(IFactory)
+- uid: Dock.Model.Core.FactoryExtensions.GetCurrentDockWindow*
+  name: GetCurrentDockWindow
+  href: api/Dock.Model.Core.FactoryExtensions.html#Dock_Model_Core_FactoryExtensions_GetCurrentDockWindow_
+  commentId: Overload:Dock.Model.Core.FactoryExtensions.GetCurrentDockWindow
+  isSpec: "True"
+  fullName: Dock.Model.Core.FactoryExtensions.GetCurrentDockWindow
+  nameWithType: FactoryExtensions.GetCurrentDockWindow
+- uid: Dock.Model.Core.FactoryExtensions.GetCurrentDocument(Dock.Model.Core.IFactory)
+  name: GetCurrentDocument(IFactory)
+  href: api/Dock.Model.Core.FactoryExtensions.html#Dock_Model_Core_FactoryExtensions_GetCurrentDocument_Dock_Model_Core_IFactory_
+  commentId: M:Dock.Model.Core.FactoryExtensions.GetCurrentDocument(Dock.Model.Core.IFactory)
+  fullName: Dock.Model.Core.FactoryExtensions.GetCurrentDocument(Dock.Model.Core.IFactory)
+  nameWithType: FactoryExtensions.GetCurrentDocument(IFactory)
+- uid: Dock.Model.Core.FactoryExtensions.GetCurrentDocument*
+  name: GetCurrentDocument
+  href: api/Dock.Model.Core.FactoryExtensions.html#Dock_Model_Core_FactoryExtensions_GetCurrentDocument_
+  commentId: Overload:Dock.Model.Core.FactoryExtensions.GetCurrentDocument
+  isSpec: "True"
+  fullName: Dock.Model.Core.FactoryExtensions.GetCurrentDocument
+  nameWithType: FactoryExtensions.GetCurrentDocument
+- uid: Dock.Model.Core.FactoryExtensions.GetCurrentHostWindow(Dock.Model.Core.IFactory)
+  name: GetCurrentHostWindow(IFactory)
+  href: api/Dock.Model.Core.FactoryExtensions.html#Dock_Model_Core_FactoryExtensions_GetCurrentHostWindow_Dock_Model_Core_IFactory_
+  commentId: M:Dock.Model.Core.FactoryExtensions.GetCurrentHostWindow(Dock.Model.Core.IFactory)
+  fullName: Dock.Model.Core.FactoryExtensions.GetCurrentHostWindow(Dock.Model.Core.IFactory)
+  nameWithType: FactoryExtensions.GetCurrentHostWindow(IFactory)
+- uid: Dock.Model.Core.FactoryExtensions.GetCurrentHostWindow*
+  name: GetCurrentHostWindow
+  href: api/Dock.Model.Core.FactoryExtensions.html#Dock_Model_Core_FactoryExtensions_GetCurrentHostWindow_
+  commentId: Overload:Dock.Model.Core.FactoryExtensions.GetCurrentHostWindow
+  isSpec: "True"
+  fullName: Dock.Model.Core.FactoryExtensions.GetCurrentHostWindow
+  nameWithType: FactoryExtensions.GetCurrentHostWindow
+- uid: Dock.Model.Core.GlobalDockTrackingState
+  name: GlobalDockTrackingState
+  href: api/Dock.Model.Core.GlobalDockTrackingState.html
+  commentId: T:Dock.Model.Core.GlobalDockTrackingState
+  fullName: Dock.Model.Core.GlobalDockTrackingState
+  nameWithType: GlobalDockTrackingState
+- uid: Dock.Model.Core.GlobalDockTrackingState.#ctor(Dock.Model.Core.IDockable,Dock.Model.Controls.IRootDock,Dock.Model.Core.IDockWindow)
+  name: GlobalDockTrackingState(IDockable?, IRootDock?, IDockWindow?)
+  href: api/Dock.Model.Core.GlobalDockTrackingState.html#Dock_Model_Core_GlobalDockTrackingState__ctor_Dock_Model_Core_IDockable_Dock_Model_Controls_IRootDock_Dock_Model_Core_IDockWindow_
+  commentId: M:Dock.Model.Core.GlobalDockTrackingState.#ctor(Dock.Model.Core.IDockable,Dock.Model.Controls.IRootDock,Dock.Model.Core.IDockWindow)
+  name.vb: New(IDockable, IRootDock, IDockWindow)
+  fullName: Dock.Model.Core.GlobalDockTrackingState.GlobalDockTrackingState(Dock.Model.Core.IDockable?, Dock.Model.Controls.IRootDock?, Dock.Model.Core.IDockWindow?)
+  fullName.vb: Dock.Model.Core.GlobalDockTrackingState.New(Dock.Model.Core.IDockable, Dock.Model.Controls.IRootDock, Dock.Model.Core.IDockWindow)
+  nameWithType: GlobalDockTrackingState.GlobalDockTrackingState(IDockable?, IRootDock?, IDockWindow?)
+  nameWithType.vb: GlobalDockTrackingState.New(IDockable, IRootDock, IDockWindow)
+- uid: Dock.Model.Core.GlobalDockTrackingState.#ctor*
+  name: GlobalDockTrackingState
+  href: api/Dock.Model.Core.GlobalDockTrackingState.html#Dock_Model_Core_GlobalDockTrackingState__ctor_
+  commentId: Overload:Dock.Model.Core.GlobalDockTrackingState.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Dock.Model.Core.GlobalDockTrackingState.GlobalDockTrackingState
+  fullName.vb: Dock.Model.Core.GlobalDockTrackingState.New
+  nameWithType: GlobalDockTrackingState.GlobalDockTrackingState
+  nameWithType.vb: GlobalDockTrackingState.New
+- uid: Dock.Model.Core.GlobalDockTrackingState.Dockable
+  name: Dockable
+  href: api/Dock.Model.Core.GlobalDockTrackingState.html#Dock_Model_Core_GlobalDockTrackingState_Dockable
+  commentId: P:Dock.Model.Core.GlobalDockTrackingState.Dockable
+  fullName: Dock.Model.Core.GlobalDockTrackingState.Dockable
+  nameWithType: GlobalDockTrackingState.Dockable
+- uid: Dock.Model.Core.GlobalDockTrackingState.Dockable*
+  name: Dockable
+  href: api/Dock.Model.Core.GlobalDockTrackingState.html#Dock_Model_Core_GlobalDockTrackingState_Dockable_
+  commentId: Overload:Dock.Model.Core.GlobalDockTrackingState.Dockable
+  isSpec: "True"
+  fullName: Dock.Model.Core.GlobalDockTrackingState.Dockable
+  nameWithType: GlobalDockTrackingState.Dockable
+- uid: Dock.Model.Core.GlobalDockTrackingState.Empty
+  name: Empty
+  href: api/Dock.Model.Core.GlobalDockTrackingState.html#Dock_Model_Core_GlobalDockTrackingState_Empty
+  commentId: P:Dock.Model.Core.GlobalDockTrackingState.Empty
+  fullName: Dock.Model.Core.GlobalDockTrackingState.Empty
+  nameWithType: GlobalDockTrackingState.Empty
+- uid: Dock.Model.Core.GlobalDockTrackingState.Empty*
+  name: Empty
+  href: api/Dock.Model.Core.GlobalDockTrackingState.html#Dock_Model_Core_GlobalDockTrackingState_Empty_
+  commentId: Overload:Dock.Model.Core.GlobalDockTrackingState.Empty
+  isSpec: "True"
+  fullName: Dock.Model.Core.GlobalDockTrackingState.Empty
+  nameWithType: GlobalDockTrackingState.Empty
+- uid: Dock.Model.Core.GlobalDockTrackingState.HostWindow
+  name: HostWindow
+  href: api/Dock.Model.Core.GlobalDockTrackingState.html#Dock_Model_Core_GlobalDockTrackingState_HostWindow
+  commentId: P:Dock.Model.Core.GlobalDockTrackingState.HostWindow
+  fullName: Dock.Model.Core.GlobalDockTrackingState.HostWindow
+  nameWithType: GlobalDockTrackingState.HostWindow
+- uid: Dock.Model.Core.GlobalDockTrackingState.HostWindow*
+  name: HostWindow
+  href: api/Dock.Model.Core.GlobalDockTrackingState.html#Dock_Model_Core_GlobalDockTrackingState_HostWindow_
+  commentId: Overload:Dock.Model.Core.GlobalDockTrackingState.HostWindow
+  isSpec: "True"
+  fullName: Dock.Model.Core.GlobalDockTrackingState.HostWindow
+  nameWithType: GlobalDockTrackingState.HostWindow
+- uid: Dock.Model.Core.GlobalDockTrackingState.RootDock
+  name: RootDock
+  href: api/Dock.Model.Core.GlobalDockTrackingState.html#Dock_Model_Core_GlobalDockTrackingState_RootDock
+  commentId: P:Dock.Model.Core.GlobalDockTrackingState.RootDock
+  fullName: Dock.Model.Core.GlobalDockTrackingState.RootDock
+  nameWithType: GlobalDockTrackingState.RootDock
+- uid: Dock.Model.Core.GlobalDockTrackingState.RootDock*
+  name: RootDock
+  href: api/Dock.Model.Core.GlobalDockTrackingState.html#Dock_Model_Core_GlobalDockTrackingState_RootDock_
+  commentId: Overload:Dock.Model.Core.GlobalDockTrackingState.RootDock
+  isSpec: "True"
+  fullName: Dock.Model.Core.GlobalDockTrackingState.RootDock
+  nameWithType: GlobalDockTrackingState.RootDock
+- uid: Dock.Model.Core.GlobalDockTrackingState.Window
+  name: Window
+  href: api/Dock.Model.Core.GlobalDockTrackingState.html#Dock_Model_Core_GlobalDockTrackingState_Window
+  commentId: P:Dock.Model.Core.GlobalDockTrackingState.Window
+  fullName: Dock.Model.Core.GlobalDockTrackingState.Window
+  nameWithType: GlobalDockTrackingState.Window
+- uid: Dock.Model.Core.GlobalDockTrackingState.Window*
+  name: Window
+  href: api/Dock.Model.Core.GlobalDockTrackingState.html#Dock_Model_Core_GlobalDockTrackingState_Window_
+  commentId: Overload:Dock.Model.Core.GlobalDockTrackingState.Window
+  isSpec: "True"
+  fullName: Dock.Model.Core.GlobalDockTrackingState.Window
+  nameWithType: GlobalDockTrackingState.Window
 - uid: Dock.Model.Core.GridResizeDirection
   name: GridResizeDirection
   href: api/Dock.Model.Core.GridResizeDirection.html
@@ -21430,6 +22239,19 @@ references:
   isSpec: "True"
   fullName: Dock.Model.Core.IDockWindow.Width
   nameWithType: IDockWindow.Width
+- uid: Dock.Model.Core.IDockWindow.WindowState
+  name: WindowState
+  href: api/Dock.Model.Core.IDockWindow.html#Dock_Model_Core_IDockWindow_WindowState
+  commentId: P:Dock.Model.Core.IDockWindow.WindowState
+  fullName: Dock.Model.Core.IDockWindow.WindowState
+  nameWithType: IDockWindow.WindowState
+- uid: Dock.Model.Core.IDockWindow.WindowState*
+  name: WindowState
+  href: api/Dock.Model.Core.IDockWindow.html#Dock_Model_Core_IDockWindow_WindowState_
+  commentId: Overload:Dock.Model.Core.IDockWindow.WindowState
+  isSpec: "True"
+  fullName: Dock.Model.Core.IDockWindow.WindowState
+  nameWithType: IDockWindow.WindowState
 - uid: Dock.Model.Core.IDockWindow.X
   name: X
   href: api/Dock.Model.Core.IDockWindow.html#Dock_Model_Core_IDockWindow_X
@@ -21618,6 +22440,19 @@ references:
   isSpec: "True"
   fullName: Dock.Model.Core.IDockable.DockGroup
   nameWithType: IDockable.DockGroup
+- uid: Dock.Model.Core.IDockable.DockingState
+  name: DockingState
+  href: api/Dock.Model.Core.IDockable.html#Dock_Model_Core_IDockable_DockingState
+  commentId: P:Dock.Model.Core.IDockable.DockingState
+  fullName: Dock.Model.Core.IDockable.DockingState
+  nameWithType: IDockable.DockingState
+- uid: Dock.Model.Core.IDockable.DockingState*
+  name: DockingState
+  href: api/Dock.Model.Core.IDockable.html#Dock_Model_Core_IDockable_DockingState_
+  commentId: Overload:Dock.Model.Core.IDockable.DockingState
+  isSpec: "True"
+  fullName: Dock.Model.Core.IDockable.DockingState
+  nameWithType: IDockable.DockingState
 - uid: Dock.Model.Core.IDockable.Factory
   name: Factory
   href: api/Dock.Model.Core.IDockable.html#Dock_Model_Core_IDockable_Factory
@@ -22583,6 +23418,58 @@ references:
   isSpec: "True"
   fullName: Dock.Model.Core.IFactory.CreateWrapDock
   nameWithType: IFactory.CreateWrapDock
+- uid: Dock.Model.Core.IFactory.CurrentDockWindow
+  name: CurrentDockWindow
+  href: api/Dock.Model.Core.IFactory.html#Dock_Model_Core_IFactory_CurrentDockWindow
+  commentId: P:Dock.Model.Core.IFactory.CurrentDockWindow
+  fullName: Dock.Model.Core.IFactory.CurrentDockWindow
+  nameWithType: IFactory.CurrentDockWindow
+- uid: Dock.Model.Core.IFactory.CurrentDockWindow*
+  name: CurrentDockWindow
+  href: api/Dock.Model.Core.IFactory.html#Dock_Model_Core_IFactory_CurrentDockWindow_
+  commentId: Overload:Dock.Model.Core.IFactory.CurrentDockWindow
+  isSpec: "True"
+  fullName: Dock.Model.Core.IFactory.CurrentDockWindow
+  nameWithType: IFactory.CurrentDockWindow
+- uid: Dock.Model.Core.IFactory.CurrentDockable
+  name: CurrentDockable
+  href: api/Dock.Model.Core.IFactory.html#Dock_Model_Core_IFactory_CurrentDockable
+  commentId: P:Dock.Model.Core.IFactory.CurrentDockable
+  fullName: Dock.Model.Core.IFactory.CurrentDockable
+  nameWithType: IFactory.CurrentDockable
+- uid: Dock.Model.Core.IFactory.CurrentDockable*
+  name: CurrentDockable
+  href: api/Dock.Model.Core.IFactory.html#Dock_Model_Core_IFactory_CurrentDockable_
+  commentId: Overload:Dock.Model.Core.IFactory.CurrentDockable
+  isSpec: "True"
+  fullName: Dock.Model.Core.IFactory.CurrentDockable
+  nameWithType: IFactory.CurrentDockable
+- uid: Dock.Model.Core.IFactory.CurrentHostWindow
+  name: CurrentHostWindow
+  href: api/Dock.Model.Core.IFactory.html#Dock_Model_Core_IFactory_CurrentHostWindow
+  commentId: P:Dock.Model.Core.IFactory.CurrentHostWindow
+  fullName: Dock.Model.Core.IFactory.CurrentHostWindow
+  nameWithType: IFactory.CurrentHostWindow
+- uid: Dock.Model.Core.IFactory.CurrentHostWindow*
+  name: CurrentHostWindow
+  href: api/Dock.Model.Core.IFactory.html#Dock_Model_Core_IFactory_CurrentHostWindow_
+  commentId: Overload:Dock.Model.Core.IFactory.CurrentHostWindow
+  isSpec: "True"
+  fullName: Dock.Model.Core.IFactory.CurrentHostWindow
+  nameWithType: IFactory.CurrentHostWindow
+- uid: Dock.Model.Core.IFactory.CurrentRootDock
+  name: CurrentRootDock
+  href: api/Dock.Model.Core.IFactory.html#Dock_Model_Core_IFactory_CurrentRootDock
+  commentId: P:Dock.Model.Core.IFactory.CurrentRootDock
+  fullName: Dock.Model.Core.IFactory.CurrentRootDock
+  nameWithType: IFactory.CurrentRootDock
+- uid: Dock.Model.Core.IFactory.CurrentRootDock*
+  name: CurrentRootDock
+  href: api/Dock.Model.Core.IFactory.html#Dock_Model_Core_IFactory_CurrentRootDock_
+  commentId: Overload:Dock.Model.Core.IFactory.CurrentRootDock
+  isSpec: "True"
+  fullName: Dock.Model.Core.IFactory.CurrentRootDock
+  nameWithType: IFactory.CurrentRootDock
 - uid: Dock.Model.Core.IFactory.DefaultContextLocator
   name: DefaultContextLocator
   href: api/Dock.Model.Core.IFactory.html#Dock_Model_Core_IFactory_DefaultContextLocator
@@ -22906,6 +23793,25 @@ references:
   isSpec: "True"
   fullName: Dock.Model.Core.IFactory.GetHostWindow
   nameWithType: IFactory.GetHostWindow
+- uid: Dock.Model.Core.IFactory.GlobalDockTrackingChanged
+  name: GlobalDockTrackingChanged
+  href: api/Dock.Model.Core.IFactory.html#Dock_Model_Core_IFactory_GlobalDockTrackingChanged
+  commentId: E:Dock.Model.Core.IFactory.GlobalDockTrackingChanged
+  fullName: Dock.Model.Core.IFactory.GlobalDockTrackingChanged
+  nameWithType: IFactory.GlobalDockTrackingChanged
+- uid: Dock.Model.Core.IFactory.GlobalDockTrackingState
+  name: GlobalDockTrackingState
+  href: api/Dock.Model.Core.IFactory.html#Dock_Model_Core_IFactory_GlobalDockTrackingState
+  commentId: P:Dock.Model.Core.IFactory.GlobalDockTrackingState
+  fullName: Dock.Model.Core.IFactory.GlobalDockTrackingState
+  nameWithType: IFactory.GlobalDockTrackingState
+- uid: Dock.Model.Core.IFactory.GlobalDockTrackingState*
+  name: GlobalDockTrackingState
+  href: api/Dock.Model.Core.IFactory.html#Dock_Model_Core_IFactory_GlobalDockTrackingState_
+  commentId: Overload:Dock.Model.Core.IFactory.GlobalDockTrackingState
+  isSpec: "True"
+  fullName: Dock.Model.Core.IFactory.GlobalDockTrackingState
+  nameWithType: IFactory.GlobalDockTrackingState
 - uid: Dock.Model.Core.IFactory.HideDockable(Dock.Model.Core.IDockable)
   name: HideDockable(IDockable)
   href: api/Dock.Model.Core.IFactory.html#Dock_Model_Core_IFactory_HideDockable_Dock_Model_Core_IDockable_
@@ -24153,6 +25059,19 @@ references:
   isSpec: "True"
   fullName: Dock.Model.Core.IHostWindow.GetSize
   nameWithType: IHostWindow.GetSize
+- uid: Dock.Model.Core.IHostWindow.GetWindowState
+  name: GetWindowState()
+  href: api/Dock.Model.Core.IHostWindow.html#Dock_Model_Core_IHostWindow_GetWindowState
+  commentId: M:Dock.Model.Core.IHostWindow.GetWindowState
+  fullName: Dock.Model.Core.IHostWindow.GetWindowState()
+  nameWithType: IHostWindow.GetWindowState()
+- uid: Dock.Model.Core.IHostWindow.GetWindowState*
+  name: GetWindowState
+  href: api/Dock.Model.Core.IHostWindow.html#Dock_Model_Core_IHostWindow_GetWindowState_
+  commentId: Overload:Dock.Model.Core.IHostWindow.GetWindowState
+  isSpec: "True"
+  fullName: Dock.Model.Core.IHostWindow.GetWindowState
+  nameWithType: IHostWindow.GetWindowState
 - uid: Dock.Model.Core.IHostWindow.HostWindowState
   name: HostWindowState
   href: api/Dock.Model.Core.IHostWindow.html#Dock_Model_Core_IHostWindow_HostWindowState
@@ -24269,6 +25188,19 @@ references:
   isSpec: "True"
   fullName: Dock.Model.Core.IHostWindow.SetTitle
   nameWithType: IHostWindow.SetTitle
+- uid: Dock.Model.Core.IHostWindow.SetWindowState(Dock.Model.Core.DockWindowState)
+  name: SetWindowState(DockWindowState)
+  href: api/Dock.Model.Core.IHostWindow.html#Dock_Model_Core_IHostWindow_SetWindowState_Dock_Model_Core_DockWindowState_
+  commentId: M:Dock.Model.Core.IHostWindow.SetWindowState(Dock.Model.Core.DockWindowState)
+  fullName: Dock.Model.Core.IHostWindow.SetWindowState(Dock.Model.Core.DockWindowState)
+  nameWithType: IHostWindow.SetWindowState(DockWindowState)
+- uid: Dock.Model.Core.IHostWindow.SetWindowState*
+  name: SetWindowState
+  href: api/Dock.Model.Core.IHostWindow.html#Dock_Model_Core_IHostWindow_SetWindowState_
+  commentId: Overload:Dock.Model.Core.IHostWindow.SetWindowState
+  isSpec: "True"
+  fullName: Dock.Model.Core.IHostWindow.SetWindowState
+  nameWithType: IHostWindow.SetWindowState
 - uid: Dock.Model.Core.IHostWindow.Window
   name: Window
   href: api/Dock.Model.Core.IHostWindow.html#Dock_Model_Core_IHostWindow_Window
@@ -25566,6 +26498,22 @@ references:
   isSpec: "True"
   fullName: Dock.Model.FactoryBase.CleanupOrphanedSplitters
   nameWithType: FactoryBase.CleanupOrphanedSplitters
+- uid: Dock.Model.FactoryBase.ClearGlobalDockTrackingForWindow(Dock.Model.Core.IDockWindow,Dock.Model.Core.DockTrackingChangeReason)
+  name: ClearGlobalDockTrackingForWindow(IDockWindow?, DockTrackingChangeReason)
+  href: api/Dock.Model.FactoryBase.html#Dock_Model_FactoryBase_ClearGlobalDockTrackingForWindow_Dock_Model_Core_IDockWindow_Dock_Model_Core_DockTrackingChangeReason_
+  commentId: M:Dock.Model.FactoryBase.ClearGlobalDockTrackingForWindow(Dock.Model.Core.IDockWindow,Dock.Model.Core.DockTrackingChangeReason)
+  name.vb: ClearGlobalDockTrackingForWindow(IDockWindow, DockTrackingChangeReason)
+  fullName: Dock.Model.FactoryBase.ClearGlobalDockTrackingForWindow(Dock.Model.Core.IDockWindow?, Dock.Model.Core.DockTrackingChangeReason)
+  fullName.vb: Dock.Model.FactoryBase.ClearGlobalDockTrackingForWindow(Dock.Model.Core.IDockWindow, Dock.Model.Core.DockTrackingChangeReason)
+  nameWithType: FactoryBase.ClearGlobalDockTrackingForWindow(IDockWindow?, DockTrackingChangeReason)
+  nameWithType.vb: FactoryBase.ClearGlobalDockTrackingForWindow(IDockWindow, DockTrackingChangeReason)
+- uid: Dock.Model.FactoryBase.ClearGlobalDockTrackingForWindow*
+  name: ClearGlobalDockTrackingForWindow
+  href: api/Dock.Model.FactoryBase.html#Dock_Model_FactoryBase_ClearGlobalDockTrackingForWindow_
+  commentId: Overload:Dock.Model.FactoryBase.ClearGlobalDockTrackingForWindow
+  isSpec: "True"
+  fullName: Dock.Model.FactoryBase.ClearGlobalDockTrackingForWindow
+  nameWithType: FactoryBase.ClearGlobalDockTrackingForWindow
 - uid: Dock.Model.FactoryBase.CloseAllDockables(Dock.Model.Core.IDockable)
   name: CloseAllDockables(IDockable)
   href: api/Dock.Model.FactoryBase.html#Dock_Model_FactoryBase_CloseAllDockables_Dock_Model_Core_IDockable_
@@ -25929,6 +26877,58 @@ references:
   isSpec: "True"
   fullName: Dock.Model.FactoryBase.CreateWrapDock
   nameWithType: FactoryBase.CreateWrapDock
+- uid: Dock.Model.FactoryBase.CurrentDockWindow
+  name: CurrentDockWindow
+  href: api/Dock.Model.FactoryBase.html#Dock_Model_FactoryBase_CurrentDockWindow
+  commentId: P:Dock.Model.FactoryBase.CurrentDockWindow
+  fullName: Dock.Model.FactoryBase.CurrentDockWindow
+  nameWithType: FactoryBase.CurrentDockWindow
+- uid: Dock.Model.FactoryBase.CurrentDockWindow*
+  name: CurrentDockWindow
+  href: api/Dock.Model.FactoryBase.html#Dock_Model_FactoryBase_CurrentDockWindow_
+  commentId: Overload:Dock.Model.FactoryBase.CurrentDockWindow
+  isSpec: "True"
+  fullName: Dock.Model.FactoryBase.CurrentDockWindow
+  nameWithType: FactoryBase.CurrentDockWindow
+- uid: Dock.Model.FactoryBase.CurrentDockable
+  name: CurrentDockable
+  href: api/Dock.Model.FactoryBase.html#Dock_Model_FactoryBase_CurrentDockable
+  commentId: P:Dock.Model.FactoryBase.CurrentDockable
+  fullName: Dock.Model.FactoryBase.CurrentDockable
+  nameWithType: FactoryBase.CurrentDockable
+- uid: Dock.Model.FactoryBase.CurrentDockable*
+  name: CurrentDockable
+  href: api/Dock.Model.FactoryBase.html#Dock_Model_FactoryBase_CurrentDockable_
+  commentId: Overload:Dock.Model.FactoryBase.CurrentDockable
+  isSpec: "True"
+  fullName: Dock.Model.FactoryBase.CurrentDockable
+  nameWithType: FactoryBase.CurrentDockable
+- uid: Dock.Model.FactoryBase.CurrentHostWindow
+  name: CurrentHostWindow
+  href: api/Dock.Model.FactoryBase.html#Dock_Model_FactoryBase_CurrentHostWindow
+  commentId: P:Dock.Model.FactoryBase.CurrentHostWindow
+  fullName: Dock.Model.FactoryBase.CurrentHostWindow
+  nameWithType: FactoryBase.CurrentHostWindow
+- uid: Dock.Model.FactoryBase.CurrentHostWindow*
+  name: CurrentHostWindow
+  href: api/Dock.Model.FactoryBase.html#Dock_Model_FactoryBase_CurrentHostWindow_
+  commentId: Overload:Dock.Model.FactoryBase.CurrentHostWindow
+  isSpec: "True"
+  fullName: Dock.Model.FactoryBase.CurrentHostWindow
+  nameWithType: FactoryBase.CurrentHostWindow
+- uid: Dock.Model.FactoryBase.CurrentRootDock
+  name: CurrentRootDock
+  href: api/Dock.Model.FactoryBase.html#Dock_Model_FactoryBase_CurrentRootDock
+  commentId: P:Dock.Model.FactoryBase.CurrentRootDock
+  fullName: Dock.Model.FactoryBase.CurrentRootDock
+  nameWithType: FactoryBase.CurrentRootDock
+- uid: Dock.Model.FactoryBase.CurrentRootDock*
+  name: CurrentRootDock
+  href: api/Dock.Model.FactoryBase.html#Dock_Model_FactoryBase_CurrentRootDock_
+  commentId: Overload:Dock.Model.FactoryBase.CurrentRootDock
+  isSpec: "True"
+  fullName: Dock.Model.FactoryBase.CurrentRootDock
+  nameWithType: FactoryBase.CurrentRootDock
 - uid: Dock.Model.FactoryBase.DefaultContextLocator
   name: DefaultContextLocator
   href: api/Dock.Model.FactoryBase.html#Dock_Model_FactoryBase_DefaultContextLocator
@@ -26252,6 +27252,25 @@ references:
   isSpec: "True"
   fullName: Dock.Model.FactoryBase.GetHostWindow
   nameWithType: FactoryBase.GetHostWindow
+- uid: Dock.Model.FactoryBase.GlobalDockTrackingChanged
+  name: GlobalDockTrackingChanged
+  href: api/Dock.Model.FactoryBase.html#Dock_Model_FactoryBase_GlobalDockTrackingChanged
+  commentId: E:Dock.Model.FactoryBase.GlobalDockTrackingChanged
+  fullName: Dock.Model.FactoryBase.GlobalDockTrackingChanged
+  nameWithType: FactoryBase.GlobalDockTrackingChanged
+- uid: Dock.Model.FactoryBase.GlobalDockTrackingState
+  name: GlobalDockTrackingState
+  href: api/Dock.Model.FactoryBase.html#Dock_Model_FactoryBase_GlobalDockTrackingState
+  commentId: P:Dock.Model.FactoryBase.GlobalDockTrackingState
+  fullName: Dock.Model.FactoryBase.GlobalDockTrackingState
+  nameWithType: FactoryBase.GlobalDockTrackingState
+- uid: Dock.Model.FactoryBase.GlobalDockTrackingState*
+  name: GlobalDockTrackingState
+  href: api/Dock.Model.FactoryBase.html#Dock_Model_FactoryBase_GlobalDockTrackingState_
+  commentId: Overload:Dock.Model.FactoryBase.GlobalDockTrackingState
+  isSpec: "True"
+  fullName: Dock.Model.FactoryBase.GlobalDockTrackingState
+  nameWithType: FactoryBase.GlobalDockTrackingState
 - uid: Dock.Model.FactoryBase.HandleItemsSourceDocumentClosing(Dock.Model.Core.IDockable)
   name: HandleItemsSourceDocumentClosing(IDockable)
   href: api/Dock.Model.FactoryBase.html#Dock_Model_FactoryBase_HandleItemsSourceDocumentClosing_Dock_Model_Core_IDockable_
@@ -26851,6 +27870,19 @@ references:
   isSpec: "True"
   fullName: Dock.Model.FactoryBase.OnFocusedDockableChanged
   nameWithType: FactoryBase.OnFocusedDockableChanged
+- uid: Dock.Model.FactoryBase.OnGlobalDockTrackingChanged(Dock.Model.Core.GlobalDockTrackingState,Dock.Model.Core.GlobalDockTrackingState,Dock.Model.Core.DockTrackingChangeReason)
+  name: OnGlobalDockTrackingChanged(GlobalDockTrackingState, GlobalDockTrackingState, DockTrackingChangeReason)
+  href: api/Dock.Model.FactoryBase.html#Dock_Model_FactoryBase_OnGlobalDockTrackingChanged_Dock_Model_Core_GlobalDockTrackingState_Dock_Model_Core_GlobalDockTrackingState_Dock_Model_Core_DockTrackingChangeReason_
+  commentId: M:Dock.Model.FactoryBase.OnGlobalDockTrackingChanged(Dock.Model.Core.GlobalDockTrackingState,Dock.Model.Core.GlobalDockTrackingState,Dock.Model.Core.DockTrackingChangeReason)
+  fullName: Dock.Model.FactoryBase.OnGlobalDockTrackingChanged(Dock.Model.Core.GlobalDockTrackingState, Dock.Model.Core.GlobalDockTrackingState, Dock.Model.Core.DockTrackingChangeReason)
+  nameWithType: FactoryBase.OnGlobalDockTrackingChanged(GlobalDockTrackingState, GlobalDockTrackingState, DockTrackingChangeReason)
+- uid: Dock.Model.FactoryBase.OnGlobalDockTrackingChanged*
+  name: OnGlobalDockTrackingChanged
+  href: api/Dock.Model.FactoryBase.html#Dock_Model_FactoryBase_OnGlobalDockTrackingChanged_
+  commentId: Overload:Dock.Model.FactoryBase.OnGlobalDockTrackingChanged
+  isSpec: "True"
+  fullName: Dock.Model.FactoryBase.OnGlobalDockTrackingChanged
+  nameWithType: FactoryBase.OnGlobalDockTrackingChanged
 - uid: Dock.Model.FactoryBase.OnWindowActivated(Dock.Model.Core.IDockWindow)
   name: OnWindowActivated(IDockWindow?)
   href: api/Dock.Model.FactoryBase.html#Dock_Model_FactoryBase_OnWindowActivated_Dock_Model_Core_IDockWindow_
@@ -27150,6 +28182,35 @@ references:
   isSpec: "True"
   fullName: Dock.Model.FactoryBase.RemoveWindow
   nameWithType: FactoryBase.RemoveWindow
+- uid: Dock.Model.FactoryBase.ResolveDockingWindowState(Dock.Model.Core.IDockable)
+  name: ResolveDockingWindowState(IDockable)
+  href: api/Dock.Model.FactoryBase.html#Dock_Model_FactoryBase_ResolveDockingWindowState_Dock_Model_Core_IDockable_
+  commentId: M:Dock.Model.FactoryBase.ResolveDockingWindowState(Dock.Model.Core.IDockable)
+  fullName: Dock.Model.FactoryBase.ResolveDockingWindowState(Dock.Model.Core.IDockable)
+  nameWithType: FactoryBase.ResolveDockingWindowState(IDockable)
+- uid: Dock.Model.FactoryBase.ResolveDockingWindowState*
+  name: ResolveDockingWindowState
+  href: api/Dock.Model.FactoryBase.html#Dock_Model_FactoryBase_ResolveDockingWindowState_
+  commentId: Overload:Dock.Model.FactoryBase.ResolveDockingWindowState
+  isSpec: "True"
+  fullName: Dock.Model.FactoryBase.ResolveDockingWindowState
+  nameWithType: FactoryBase.ResolveDockingWindowState
+- uid: Dock.Model.FactoryBase.ResolveRootDock(Dock.Model.Core.IDockable)
+  name: ResolveRootDock(IDockable?)
+  href: api/Dock.Model.FactoryBase.html#Dock_Model_FactoryBase_ResolveRootDock_Dock_Model_Core_IDockable_
+  commentId: M:Dock.Model.FactoryBase.ResolveRootDock(Dock.Model.Core.IDockable)
+  name.vb: ResolveRootDock(IDockable)
+  fullName: Dock.Model.FactoryBase.ResolveRootDock(Dock.Model.Core.IDockable?)
+  fullName.vb: Dock.Model.FactoryBase.ResolveRootDock(Dock.Model.Core.IDockable)
+  nameWithType: FactoryBase.ResolveRootDock(IDockable?)
+  nameWithType.vb: FactoryBase.ResolveRootDock(IDockable)
+- uid: Dock.Model.FactoryBase.ResolveRootDock*
+  name: ResolveRootDock
+  href: api/Dock.Model.FactoryBase.html#Dock_Model_FactoryBase_ResolveRootDock_
+  commentId: Overload:Dock.Model.FactoryBase.ResolveRootDock
+  isSpec: "True"
+  fullName: Dock.Model.FactoryBase.ResolveRootDock
+  nameWithType: FactoryBase.ResolveRootDock
 - uid: Dock.Model.FactoryBase.RestoreDockable(Dock.Model.Core.IDockable)
   name: RestoreDockable(IDockable)
   href: api/Dock.Model.FactoryBase.html#Dock_Model_FactoryBase_RestoreDockable_Dock_Model_Core_IDockable_
@@ -27414,6 +28475,48 @@ references:
   isSpec: "True"
   fullName: Dock.Model.FactoryBase.UnpinDockable
   nameWithType: FactoryBase.UnpinDockable
+- uid: Dock.Model.FactoryBase.UpdateDockingWindowState(Dock.Model.Core.IDockable)
+  name: UpdateDockingWindowState(IDockable)
+  href: api/Dock.Model.FactoryBase.html#Dock_Model_FactoryBase_UpdateDockingWindowState_Dock_Model_Core_IDockable_
+  commentId: M:Dock.Model.FactoryBase.UpdateDockingWindowState(Dock.Model.Core.IDockable)
+  fullName: Dock.Model.FactoryBase.UpdateDockingWindowState(Dock.Model.Core.IDockable)
+  nameWithType: FactoryBase.UpdateDockingWindowState(IDockable)
+- uid: Dock.Model.FactoryBase.UpdateDockingWindowState*
+  name: UpdateDockingWindowState
+  href: api/Dock.Model.FactoryBase.html#Dock_Model_FactoryBase_UpdateDockingWindowState_
+  commentId: Overload:Dock.Model.FactoryBase.UpdateDockingWindowState
+  isSpec: "True"
+  fullName: Dock.Model.FactoryBase.UpdateDockingWindowState
+  nameWithType: FactoryBase.UpdateDockingWindowState
+- uid: Dock.Model.FactoryBase.UpdateDockingWindowStateRecursive(Dock.Model.Core.IDockable)
+  name: UpdateDockingWindowStateRecursive(IDockable)
+  href: api/Dock.Model.FactoryBase.html#Dock_Model_FactoryBase_UpdateDockingWindowStateRecursive_Dock_Model_Core_IDockable_
+  commentId: M:Dock.Model.FactoryBase.UpdateDockingWindowStateRecursive(Dock.Model.Core.IDockable)
+  fullName: Dock.Model.FactoryBase.UpdateDockingWindowStateRecursive(Dock.Model.Core.IDockable)
+  nameWithType: FactoryBase.UpdateDockingWindowStateRecursive(IDockable)
+- uid: Dock.Model.FactoryBase.UpdateDockingWindowStateRecursive*
+  name: UpdateDockingWindowStateRecursive
+  href: api/Dock.Model.FactoryBase.html#Dock_Model_FactoryBase_UpdateDockingWindowStateRecursive_
+  commentId: Overload:Dock.Model.FactoryBase.UpdateDockingWindowStateRecursive
+  isSpec: "True"
+  fullName: Dock.Model.FactoryBase.UpdateDockingWindowStateRecursive
+  nameWithType: FactoryBase.UpdateDockingWindowStateRecursive
+- uid: Dock.Model.FactoryBase.UpdateGlobalDockTracking(Dock.Model.Core.IDockable,Dock.Model.Controls.IRootDock,Dock.Model.Core.IDockWindow,Dock.Model.Core.DockTrackingChangeReason)
+  name: UpdateGlobalDockTracking(IDockable?, IRootDock?, IDockWindow?, DockTrackingChangeReason)
+  href: api/Dock.Model.FactoryBase.html#Dock_Model_FactoryBase_UpdateGlobalDockTracking_Dock_Model_Core_IDockable_Dock_Model_Controls_IRootDock_Dock_Model_Core_IDockWindow_Dock_Model_Core_DockTrackingChangeReason_
+  commentId: M:Dock.Model.FactoryBase.UpdateGlobalDockTracking(Dock.Model.Core.IDockable,Dock.Model.Controls.IRootDock,Dock.Model.Core.IDockWindow,Dock.Model.Core.DockTrackingChangeReason)
+  name.vb: UpdateGlobalDockTracking(IDockable, IRootDock, IDockWindow, DockTrackingChangeReason)
+  fullName: Dock.Model.FactoryBase.UpdateGlobalDockTracking(Dock.Model.Core.IDockable?, Dock.Model.Controls.IRootDock?, Dock.Model.Core.IDockWindow?, Dock.Model.Core.DockTrackingChangeReason)
+  fullName.vb: Dock.Model.FactoryBase.UpdateGlobalDockTracking(Dock.Model.Core.IDockable, Dock.Model.Controls.IRootDock, Dock.Model.Core.IDockWindow, Dock.Model.Core.DockTrackingChangeReason)
+  nameWithType: FactoryBase.UpdateGlobalDockTracking(IDockable?, IRootDock?, IDockWindow?, DockTrackingChangeReason)
+  nameWithType.vb: FactoryBase.UpdateGlobalDockTracking(IDockable, IRootDock, IDockWindow, DockTrackingChangeReason)
+- uid: Dock.Model.FactoryBase.UpdateGlobalDockTracking*
+  name: UpdateGlobalDockTracking
+  href: api/Dock.Model.FactoryBase.html#Dock_Model_FactoryBase_UpdateGlobalDockTracking_
+  commentId: Overload:Dock.Model.FactoryBase.UpdateGlobalDockTracking
+  isSpec: "True"
+  fullName: Dock.Model.FactoryBase.UpdateGlobalDockTracking
+  nameWithType: FactoryBase.UpdateGlobalDockTracking
 - uid: Dock.Model.FactoryBase.VisibleDockableControls
   name: VisibleDockableControls
   href: api/Dock.Model.FactoryBase.html#Dock_Model_FactoryBase_VisibleDockableControls
@@ -28356,6 +29459,22 @@ references:
   isSpec: "True"
   fullName: Dock.Model.FluentExtensions.WithDocumentTemplate
   nameWithType: FluentExtensions.WithDocumentTemplate
+- uid: Dock.Model.FluentExtensions.WithEmptyContent(Dock.Model.Controls.IDocumentDock,System.Object)
+  name: WithEmptyContent(IDocumentDock, object?)
+  href: api/Dock.Model.FluentExtensions.html#Dock_Model_FluentExtensions_WithEmptyContent_Dock_Model_Controls_IDocumentDock_System_Object_
+  commentId: M:Dock.Model.FluentExtensions.WithEmptyContent(Dock.Model.Controls.IDocumentDock,System.Object)
+  name.vb: WithEmptyContent(IDocumentDock, Object)
+  fullName: Dock.Model.FluentExtensions.WithEmptyContent(Dock.Model.Controls.IDocumentDock, object?)
+  fullName.vb: Dock.Model.FluentExtensions.WithEmptyContent(Dock.Model.Controls.IDocumentDock, Object)
+  nameWithType: FluentExtensions.WithEmptyContent(IDocumentDock, object?)
+  nameWithType.vb: FluentExtensions.WithEmptyContent(IDocumentDock, Object)
+- uid: Dock.Model.FluentExtensions.WithEmptyContent*
+  name: WithEmptyContent
+  href: api/Dock.Model.FluentExtensions.html#Dock_Model_FluentExtensions_WithEmptyContent_
+  commentId: Overload:Dock.Model.FluentExtensions.WithEmptyContent
+  isSpec: "True"
+  fullName: Dock.Model.FluentExtensions.WithEmptyContent
+  nameWithType: FluentExtensions.WithEmptyContent
 - uid: Dock.Model.FluentExtensions.WithEnableGlobalDocking*
   name: WithEnableGlobalDocking
   href: api/Dock.Model.FluentExtensions.html#Dock_Model_FluentExtensions_WithEnableGlobalDocking_
@@ -29282,6 +30401,19 @@ references:
   isSpec: "True"
   fullName: Dock.Model.FluentExtensions.WithWindow
   nameWithType: FluentExtensions.WithWindow
+- uid: Dock.Model.FluentExtensions.WithWindowState(Dock.Model.Core.IDockWindow,Dock.Model.Core.DockWindowState)
+  name: WithWindowState(IDockWindow, DockWindowState)
+  href: api/Dock.Model.FluentExtensions.html#Dock_Model_FluentExtensions_WithWindowState_Dock_Model_Core_IDockWindow_Dock_Model_Core_DockWindowState_
+  commentId: M:Dock.Model.FluentExtensions.WithWindowState(Dock.Model.Core.IDockWindow,Dock.Model.Core.DockWindowState)
+  fullName: Dock.Model.FluentExtensions.WithWindowState(Dock.Model.Core.IDockWindow, Dock.Model.Core.DockWindowState)
+  nameWithType: FluentExtensions.WithWindowState(IDockWindow, DockWindowState)
+- uid: Dock.Model.FluentExtensions.WithWindowState*
+  name: WithWindowState
+  href: api/Dock.Model.FluentExtensions.html#Dock_Model_FluentExtensions_WithWindowState_
+  commentId: Overload:Dock.Model.FluentExtensions.WithWindowState
+  isSpec: "True"
+  fullName: Dock.Model.FluentExtensions.WithWindowState
+  nameWithType: FluentExtensions.WithWindowState
 - uid: Dock.Model.FluentExtensions.WithWindows(Dock.Model.Controls.IRootDock,Dock.Model.Core.IDockWindow[])
   name: WithWindows(IRootDock, params IDockWindow[])
   href: api/Dock.Model.FluentExtensions.html#Dock_Model_FluentExtensions_WithWindows_Dock_Model_Controls_IRootDock_Dock_Model_Core_IDockWindow___
@@ -29515,6 +30647,19 @@ references:
   isSpec: "True"
   fullName: Dock.Model.Inpc.Controls.DocumentDock.DocumentFactory
   nameWithType: DocumentDock.DocumentFactory
+- uid: Dock.Model.Inpc.Controls.DocumentDock.EmptyContent
+  name: EmptyContent
+  href: api/Dock.Model.Inpc.Controls.DocumentDock.html#Dock_Model_Inpc_Controls_DocumentDock_EmptyContent
+  commentId: P:Dock.Model.Inpc.Controls.DocumentDock.EmptyContent
+  fullName: Dock.Model.Inpc.Controls.DocumentDock.EmptyContent
+  nameWithType: DocumentDock.EmptyContent
+- uid: Dock.Model.Inpc.Controls.DocumentDock.EmptyContent*
+  name: EmptyContent
+  href: api/Dock.Model.Inpc.Controls.DocumentDock.html#Dock_Model_Inpc_Controls_DocumentDock_EmptyContent_
+  commentId: Overload:Dock.Model.Inpc.Controls.DocumentDock.EmptyContent
+  isSpec: "True"
+  fullName: Dock.Model.Inpc.Controls.DocumentDock.EmptyContent
+  nameWithType: DocumentDock.EmptyContent
 - uid: Dock.Model.Inpc.Controls.DocumentDock.EnableWindowDrag
   name: EnableWindowDrag
   href: api/Dock.Model.Inpc.Controls.DocumentDock.html#Dock_Model_Inpc_Controls_DocumentDock_EnableWindowDrag
@@ -30764,6 +31909,19 @@ references:
   isSpec: "True"
   fullName: Dock.Model.Inpc.Core.DockWindow.Width
   nameWithType: DockWindow.Width
+- uid: Dock.Model.Inpc.Core.DockWindow.WindowState
+  name: WindowState
+  href: api/Dock.Model.Inpc.Core.DockWindow.html#Dock_Model_Inpc_Core_DockWindow_WindowState
+  commentId: P:Dock.Model.Inpc.Core.DockWindow.WindowState
+  fullName: Dock.Model.Inpc.Core.DockWindow.WindowState
+  nameWithType: DockWindow.WindowState
+- uid: Dock.Model.Inpc.Core.DockWindow.WindowState*
+  name: WindowState
+  href: api/Dock.Model.Inpc.Core.DockWindow.html#Dock_Model_Inpc_Core_DockWindow_WindowState_
+  commentId: Overload:Dock.Model.Inpc.Core.DockWindow.WindowState
+  isSpec: "True"
+  fullName: Dock.Model.Inpc.Core.DockWindow.WindowState
+  nameWithType: DockWindow.WindowState
 - uid: Dock.Model.Inpc.Core.DockWindow.X
   name: X
   href: api/Dock.Model.Inpc.Core.DockWindow.html#Dock_Model_Inpc_Core_DockWindow_X
@@ -30997,6 +32155,19 @@ references:
   isSpec: "True"
   fullName: Dock.Model.Inpc.Core.DockableBase.DockGroup
   nameWithType: DockableBase.DockGroup
+- uid: Dock.Model.Inpc.Core.DockableBase.DockingState
+  name: DockingState
+  href: api/Dock.Model.Inpc.Core.DockableBase.html#Dock_Model_Inpc_Core_DockableBase_DockingState
+  commentId: P:Dock.Model.Inpc.Core.DockableBase.DockingState
+  fullName: Dock.Model.Inpc.Core.DockableBase.DockingState
+  nameWithType: DockableBase.DockingState
+- uid: Dock.Model.Inpc.Core.DockableBase.DockingState*
+  name: DockingState
+  href: api/Dock.Model.Inpc.Core.DockableBase.html#Dock_Model_Inpc_Core_DockableBase_DockingState_
+  commentId: Overload:Dock.Model.Inpc.Core.DockableBase.DockingState
+  isSpec: "True"
+  fullName: Dock.Model.Inpc.Core.DockableBase.DockingState
+  nameWithType: DockableBase.DockingState
 - uid: Dock.Model.Inpc.Core.DockableBase.Factory
   name: Factory
   href: api/Dock.Model.Inpc.Core.DockableBase.html#Dock_Model_Inpc_Core_DockableBase_Factory
@@ -32329,6 +33500,19 @@ references:
   isSpec: "True"
   fullName: Dock.Model.Mvvm.Controls.DocumentDock.DocumentFactory
   nameWithType: DocumentDock.DocumentFactory
+- uid: Dock.Model.Mvvm.Controls.DocumentDock.EmptyContent
+  name: EmptyContent
+  href: api/Dock.Model.Mvvm.Controls.DocumentDock.html#Dock_Model_Mvvm_Controls_DocumentDock_EmptyContent
+  commentId: P:Dock.Model.Mvvm.Controls.DocumentDock.EmptyContent
+  fullName: Dock.Model.Mvvm.Controls.DocumentDock.EmptyContent
+  nameWithType: DocumentDock.EmptyContent
+- uid: Dock.Model.Mvvm.Controls.DocumentDock.EmptyContent*
+  name: EmptyContent
+  href: api/Dock.Model.Mvvm.Controls.DocumentDock.html#Dock_Model_Mvvm_Controls_DocumentDock_EmptyContent_
+  commentId: Overload:Dock.Model.Mvvm.Controls.DocumentDock.EmptyContent
+  isSpec: "True"
+  fullName: Dock.Model.Mvvm.Controls.DocumentDock.EmptyContent
+  nameWithType: DocumentDock.EmptyContent
 - uid: Dock.Model.Mvvm.Controls.DocumentDock.EnableWindowDrag
   name: EnableWindowDrag
   href: api/Dock.Model.Mvvm.Controls.DocumentDock.html#Dock_Model_Mvvm_Controls_DocumentDock_EnableWindowDrag
@@ -33578,6 +34762,19 @@ references:
   isSpec: "True"
   fullName: Dock.Model.Mvvm.Core.DockWindow.Width
   nameWithType: DockWindow.Width
+- uid: Dock.Model.Mvvm.Core.DockWindow.WindowState
+  name: WindowState
+  href: api/Dock.Model.Mvvm.Core.DockWindow.html#Dock_Model_Mvvm_Core_DockWindow_WindowState
+  commentId: P:Dock.Model.Mvvm.Core.DockWindow.WindowState
+  fullName: Dock.Model.Mvvm.Core.DockWindow.WindowState
+  nameWithType: DockWindow.WindowState
+- uid: Dock.Model.Mvvm.Core.DockWindow.WindowState*
+  name: WindowState
+  href: api/Dock.Model.Mvvm.Core.DockWindow.html#Dock_Model_Mvvm_Core_DockWindow_WindowState_
+  commentId: Overload:Dock.Model.Mvvm.Core.DockWindow.WindowState
+  isSpec: "True"
+  fullName: Dock.Model.Mvvm.Core.DockWindow.WindowState
+  nameWithType: DockWindow.WindowState
 - uid: Dock.Model.Mvvm.Core.DockWindow.X
   name: X
   href: api/Dock.Model.Mvvm.Core.DockWindow.html#Dock_Model_Mvvm_Core_DockWindow_X
@@ -33811,6 +35008,19 @@ references:
   isSpec: "True"
   fullName: Dock.Model.Mvvm.Core.DockableBase.DockGroup
   nameWithType: DockableBase.DockGroup
+- uid: Dock.Model.Mvvm.Core.DockableBase.DockingState
+  name: DockingState
+  href: api/Dock.Model.Mvvm.Core.DockableBase.html#Dock_Model_Mvvm_Core_DockableBase_DockingState
+  commentId: P:Dock.Model.Mvvm.Core.DockableBase.DockingState
+  fullName: Dock.Model.Mvvm.Core.DockableBase.DockingState
+  nameWithType: DockableBase.DockingState
+- uid: Dock.Model.Mvvm.Core.DockableBase.DockingState*
+  name: DockingState
+  href: api/Dock.Model.Mvvm.Core.DockableBase.html#Dock_Model_Mvvm_Core_DockableBase_DockingState_
+  commentId: Overload:Dock.Model.Mvvm.Core.DockableBase.DockingState
+  isSpec: "True"
+  fullName: Dock.Model.Mvvm.Core.DockableBase.DockingState
+  nameWithType: DockableBase.DockingState
 - uid: Dock.Model.Mvvm.Core.DockableBase.Factory
   name: Factory
   href: api/Dock.Model.Mvvm.Core.DockableBase.html#Dock_Model_Mvvm_Core_DockableBase_Factory
@@ -34940,6 +36150,19 @@ references:
   isSpec: "True"
   fullName: Dock.Model.Prism.Controls.DocumentDock.DocumentFactory
   nameWithType: DocumentDock.DocumentFactory
+- uid: Dock.Model.Prism.Controls.DocumentDock.EmptyContent
+  name: EmptyContent
+  href: api/Dock.Model.Prism.Controls.DocumentDock.html#Dock_Model_Prism_Controls_DocumentDock_EmptyContent
+  commentId: P:Dock.Model.Prism.Controls.DocumentDock.EmptyContent
+  fullName: Dock.Model.Prism.Controls.DocumentDock.EmptyContent
+  nameWithType: DocumentDock.EmptyContent
+- uid: Dock.Model.Prism.Controls.DocumentDock.EmptyContent*
+  name: EmptyContent
+  href: api/Dock.Model.Prism.Controls.DocumentDock.html#Dock_Model_Prism_Controls_DocumentDock_EmptyContent_
+  commentId: Overload:Dock.Model.Prism.Controls.DocumentDock.EmptyContent
+  isSpec: "True"
+  fullName: Dock.Model.Prism.Controls.DocumentDock.EmptyContent
+  nameWithType: DocumentDock.EmptyContent
 - uid: Dock.Model.Prism.Controls.DocumentDock.EnableWindowDrag
   name: EnableWindowDrag
   href: api/Dock.Model.Prism.Controls.DocumentDock.html#Dock_Model_Prism_Controls_DocumentDock_EnableWindowDrag
@@ -36189,6 +37412,19 @@ references:
   isSpec: "True"
   fullName: Dock.Model.Prism.Core.DockWindow.Width
   nameWithType: DockWindow.Width
+- uid: Dock.Model.Prism.Core.DockWindow.WindowState
+  name: WindowState
+  href: api/Dock.Model.Prism.Core.DockWindow.html#Dock_Model_Prism_Core_DockWindow_WindowState
+  commentId: P:Dock.Model.Prism.Core.DockWindow.WindowState
+  fullName: Dock.Model.Prism.Core.DockWindow.WindowState
+  nameWithType: DockWindow.WindowState
+- uid: Dock.Model.Prism.Core.DockWindow.WindowState*
+  name: WindowState
+  href: api/Dock.Model.Prism.Core.DockWindow.html#Dock_Model_Prism_Core_DockWindow_WindowState_
+  commentId: Overload:Dock.Model.Prism.Core.DockWindow.WindowState
+  isSpec: "True"
+  fullName: Dock.Model.Prism.Core.DockWindow.WindowState
+  nameWithType: DockWindow.WindowState
 - uid: Dock.Model.Prism.Core.DockWindow.X
   name: X
   href: api/Dock.Model.Prism.Core.DockWindow.html#Dock_Model_Prism_Core_DockWindow_X
@@ -36422,6 +37658,19 @@ references:
   isSpec: "True"
   fullName: Dock.Model.Prism.Core.DockableBase.DockGroup
   nameWithType: DockableBase.DockGroup
+- uid: Dock.Model.Prism.Core.DockableBase.DockingState
+  name: DockingState
+  href: api/Dock.Model.Prism.Core.DockableBase.html#Dock_Model_Prism_Core_DockableBase_DockingState
+  commentId: P:Dock.Model.Prism.Core.DockableBase.DockingState
+  fullName: Dock.Model.Prism.Core.DockableBase.DockingState
+  nameWithType: DockableBase.DockingState
+- uid: Dock.Model.Prism.Core.DockableBase.DockingState*
+  name: DockingState
+  href: api/Dock.Model.Prism.Core.DockableBase.html#Dock_Model_Prism_Core_DockableBase_DockingState_
+  commentId: Overload:Dock.Model.Prism.Core.DockableBase.DockingState
+  isSpec: "True"
+  fullName: Dock.Model.Prism.Core.DockableBase.DockingState
+  nameWithType: DockableBase.DockingState
 - uid: Dock.Model.Prism.Core.DockableBase.Factory
   name: Factory
   href: api/Dock.Model.Prism.Core.DockableBase.html#Dock_Model_Prism_Core_DockableBase_Factory
@@ -37551,6 +38800,19 @@ references:
   isSpec: "True"
   fullName: Dock.Model.ReactiveProperty.Controls.DocumentDock.DocumentFactory
   nameWithType: DocumentDock.DocumentFactory
+- uid: Dock.Model.ReactiveProperty.Controls.DocumentDock.EmptyContent
+  name: EmptyContent
+  href: api/Dock.Model.ReactiveProperty.Controls.DocumentDock.html#Dock_Model_ReactiveProperty_Controls_DocumentDock_EmptyContent
+  commentId: P:Dock.Model.ReactiveProperty.Controls.DocumentDock.EmptyContent
+  fullName: Dock.Model.ReactiveProperty.Controls.DocumentDock.EmptyContent
+  nameWithType: DocumentDock.EmptyContent
+- uid: Dock.Model.ReactiveProperty.Controls.DocumentDock.EmptyContent*
+  name: EmptyContent
+  href: api/Dock.Model.ReactiveProperty.Controls.DocumentDock.html#Dock_Model_ReactiveProperty_Controls_DocumentDock_EmptyContent_
+  commentId: Overload:Dock.Model.ReactiveProperty.Controls.DocumentDock.EmptyContent
+  isSpec: "True"
+  fullName: Dock.Model.ReactiveProperty.Controls.DocumentDock.EmptyContent
+  nameWithType: DocumentDock.EmptyContent
 - uid: Dock.Model.ReactiveProperty.Controls.DocumentDock.EnableWindowDrag
   name: EnableWindowDrag
   href: api/Dock.Model.ReactiveProperty.Controls.DocumentDock.html#Dock_Model_ReactiveProperty_Controls_DocumentDock_EnableWindowDrag
@@ -38800,6 +40062,19 @@ references:
   isSpec: "True"
   fullName: Dock.Model.ReactiveProperty.Core.DockWindow.Width
   nameWithType: DockWindow.Width
+- uid: Dock.Model.ReactiveProperty.Core.DockWindow.WindowState
+  name: WindowState
+  href: api/Dock.Model.ReactiveProperty.Core.DockWindow.html#Dock_Model_ReactiveProperty_Core_DockWindow_WindowState
+  commentId: P:Dock.Model.ReactiveProperty.Core.DockWindow.WindowState
+  fullName: Dock.Model.ReactiveProperty.Core.DockWindow.WindowState
+  nameWithType: DockWindow.WindowState
+- uid: Dock.Model.ReactiveProperty.Core.DockWindow.WindowState*
+  name: WindowState
+  href: api/Dock.Model.ReactiveProperty.Core.DockWindow.html#Dock_Model_ReactiveProperty_Core_DockWindow_WindowState_
+  commentId: Overload:Dock.Model.ReactiveProperty.Core.DockWindow.WindowState
+  isSpec: "True"
+  fullName: Dock.Model.ReactiveProperty.Core.DockWindow.WindowState
+  nameWithType: DockWindow.WindowState
 - uid: Dock.Model.ReactiveProperty.Core.DockWindow.X
   name: X
   href: api/Dock.Model.ReactiveProperty.Core.DockWindow.html#Dock_Model_ReactiveProperty_Core_DockWindow_X
@@ -39033,6 +40308,19 @@ references:
   isSpec: "True"
   fullName: Dock.Model.ReactiveProperty.Core.DockableBase.DockGroup
   nameWithType: DockableBase.DockGroup
+- uid: Dock.Model.ReactiveProperty.Core.DockableBase.DockingState
+  name: DockingState
+  href: api/Dock.Model.ReactiveProperty.Core.DockableBase.html#Dock_Model_ReactiveProperty_Core_DockableBase_DockingState
+  commentId: P:Dock.Model.ReactiveProperty.Core.DockableBase.DockingState
+  fullName: Dock.Model.ReactiveProperty.Core.DockableBase.DockingState
+  nameWithType: DockableBase.DockingState
+- uid: Dock.Model.ReactiveProperty.Core.DockableBase.DockingState*
+  name: DockingState
+  href: api/Dock.Model.ReactiveProperty.Core.DockableBase.html#Dock_Model_ReactiveProperty_Core_DockableBase_DockingState_
+  commentId: Overload:Dock.Model.ReactiveProperty.Core.DockableBase.DockingState
+  isSpec: "True"
+  fullName: Dock.Model.ReactiveProperty.Core.DockableBase.DockingState
+  nameWithType: DockableBase.DockingState
 - uid: Dock.Model.ReactiveProperty.Core.DockableBase.Factory
   name: Factory
   href: api/Dock.Model.ReactiveProperty.Core.DockableBase.html#Dock_Model_ReactiveProperty_Core_DockableBase_Factory
@@ -40219,6 +41507,19 @@ references:
   isSpec: "True"
   fullName: Dock.Model.ReactiveUI.Controls.DocumentDock.DocumentFactory
   nameWithType: DocumentDock.DocumentFactory
+- uid: Dock.Model.ReactiveUI.Controls.DocumentDock.EmptyContent
+  name: EmptyContent
+  href: api/Dock.Model.ReactiveUI.Controls.DocumentDock.html#Dock_Model_ReactiveUI_Controls_DocumentDock_EmptyContent
+  commentId: P:Dock.Model.ReactiveUI.Controls.DocumentDock.EmptyContent
+  fullName: Dock.Model.ReactiveUI.Controls.DocumentDock.EmptyContent
+  nameWithType: DocumentDock.EmptyContent
+- uid: Dock.Model.ReactiveUI.Controls.DocumentDock.EmptyContent*
+  name: EmptyContent
+  href: api/Dock.Model.ReactiveUI.Controls.DocumentDock.html#Dock_Model_ReactiveUI_Controls_DocumentDock_EmptyContent_
+  commentId: Overload:Dock.Model.ReactiveUI.Controls.DocumentDock.EmptyContent
+  isSpec: "True"
+  fullName: Dock.Model.ReactiveUI.Controls.DocumentDock.EmptyContent
+  nameWithType: DocumentDock.EmptyContent
 - uid: Dock.Model.ReactiveUI.Controls.DocumentDock.EnableWindowDrag
   name: EnableWindowDrag
   href: api/Dock.Model.ReactiveUI.Controls.DocumentDock.html#Dock_Model_ReactiveUI_Controls_DocumentDock_EnableWindowDrag
@@ -41525,6 +42826,19 @@ references:
   isSpec: "True"
   fullName: Dock.Model.ReactiveUI.Core.DockWindow.Width
   nameWithType: DockWindow.Width
+- uid: Dock.Model.ReactiveUI.Core.DockWindow.WindowState
+  name: WindowState
+  href: api/Dock.Model.ReactiveUI.Core.DockWindow.html#Dock_Model_ReactiveUI_Core_DockWindow_WindowState
+  commentId: P:Dock.Model.ReactiveUI.Core.DockWindow.WindowState
+  fullName: Dock.Model.ReactiveUI.Core.DockWindow.WindowState
+  nameWithType: DockWindow.WindowState
+- uid: Dock.Model.ReactiveUI.Core.DockWindow.WindowState*
+  name: WindowState
+  href: api/Dock.Model.ReactiveUI.Core.DockWindow.html#Dock_Model_ReactiveUI_Core_DockWindow_WindowState_
+  commentId: Overload:Dock.Model.ReactiveUI.Core.DockWindow.WindowState
+  isSpec: "True"
+  fullName: Dock.Model.ReactiveUI.Core.DockWindow.WindowState
+  nameWithType: DockWindow.WindowState
 - uid: Dock.Model.ReactiveUI.Core.DockWindow.X
   name: X
   href: api/Dock.Model.ReactiveUI.Core.DockWindow.html#Dock_Model_ReactiveUI_Core_DockWindow_X
@@ -41758,6 +43072,19 @@ references:
   isSpec: "True"
   fullName: Dock.Model.ReactiveUI.Core.DockableBase.DockGroup
   nameWithType: DockableBase.DockGroup
+- uid: Dock.Model.ReactiveUI.Core.DockableBase.DockingState
+  name: DockingState
+  href: api/Dock.Model.ReactiveUI.Core.DockableBase.html#Dock_Model_ReactiveUI_Core_DockableBase_DockingState
+  commentId: P:Dock.Model.ReactiveUI.Core.DockableBase.DockingState
+  fullName: Dock.Model.ReactiveUI.Core.DockableBase.DockingState
+  nameWithType: DockableBase.DockingState
+- uid: Dock.Model.ReactiveUI.Core.DockableBase.DockingState*
+  name: DockingState
+  href: api/Dock.Model.ReactiveUI.Core.DockableBase.html#Dock_Model_ReactiveUI_Core_DockableBase_DockingState_
+  commentId: Overload:Dock.Model.ReactiveUI.Core.DockableBase.DockingState
+  isSpec: "True"
+  fullName: Dock.Model.ReactiveUI.Core.DockableBase.DockingState
+  nameWithType: DockableBase.DockingState
 - uid: Dock.Model.ReactiveUI.Core.DockableBase.Factory
   name: Factory
   href: api/Dock.Model.ReactiveUI.Core.DockableBase.html#Dock_Model_ReactiveUI_Core_DockableBase_Factory
@@ -43173,6 +44500,12 @@ references:
   isSpec: "True"
   fullName: Dock.Model.ReactiveUI.Navigation.Services.DockNavigationHelpers.FindFactory
   nameWithType: DockNavigationHelpers.FindFactory
+- uid: Dock.Model.ReactiveUI.Navigation.Services.DockNavigationHelpers.GetBusyService(ReactiveUI.IScreen,Dock.Model.Core.IDockable,Dock.Model.ReactiveUI.Services.Overlays.Hosting.IHostOverlayServicesProvider)
+  name: GetBusyService(IScreen, IDockable, IHostOverlayServicesProvider)
+  href: api/Dock.Model.ReactiveUI.Navigation.Services.DockNavigationHelpers.html#Dock_Model_ReactiveUI_Navigation_Services_DockNavigationHelpers_GetBusyService_ReactiveUI_IScreen_Dock_Model_Core_IDockable_Dock_Model_ReactiveUI_Services_Overlays_Hosting_IHostOverlayServicesProvider_
+  commentId: M:Dock.Model.ReactiveUI.Navigation.Services.DockNavigationHelpers.GetBusyService(ReactiveUI.IScreen,Dock.Model.Core.IDockable,Dock.Model.ReactiveUI.Services.Overlays.Hosting.IHostOverlayServicesProvider)
+  fullName: Dock.Model.ReactiveUI.Navigation.Services.DockNavigationHelpers.GetBusyService(ReactiveUI.IScreen, Dock.Model.Core.IDockable, Dock.Model.ReactiveUI.Services.Overlays.Hosting.IHostOverlayServicesProvider)
+  nameWithType: DockNavigationHelpers.GetBusyService(IScreen, IDockable, IHostOverlayServicesProvider)
 - uid: Dock.Model.ReactiveUI.Navigation.Services.DockNavigationHelpers.GetBusyService(ReactiveUI.IScreen,Dock.Model.ReactiveUI.Services.Overlays.Hosting.IHostOverlayServicesProvider)
   name: GetBusyService(IScreen, IHostOverlayServicesProvider)
   href: api/Dock.Model.ReactiveUI.Navigation.Services.DockNavigationHelpers.html#Dock_Model_ReactiveUI_Navigation_Services_DockNavigationHelpers_GetBusyService_ReactiveUI_IScreen_Dock_Model_ReactiveUI_Services_Overlays_Hosting_IHostOverlayServicesProvider_
@@ -43186,6 +44519,12 @@ references:
   isSpec: "True"
   fullName: Dock.Model.ReactiveUI.Navigation.Services.DockNavigationHelpers.GetBusyService
   nameWithType: DockNavigationHelpers.GetBusyService
+- uid: Dock.Model.ReactiveUI.Navigation.Services.DockNavigationHelpers.GetConfirmationService(ReactiveUI.IScreen,Dock.Model.Core.IDockable,Dock.Model.ReactiveUI.Services.Overlays.Hosting.IHostOverlayServicesProvider)
+  name: GetConfirmationService(IScreen, IDockable, IHostOverlayServicesProvider)
+  href: api/Dock.Model.ReactiveUI.Navigation.Services.DockNavigationHelpers.html#Dock_Model_ReactiveUI_Navigation_Services_DockNavigationHelpers_GetConfirmationService_ReactiveUI_IScreen_Dock_Model_Core_IDockable_Dock_Model_ReactiveUI_Services_Overlays_Hosting_IHostOverlayServicesProvider_
+  commentId: M:Dock.Model.ReactiveUI.Navigation.Services.DockNavigationHelpers.GetConfirmationService(ReactiveUI.IScreen,Dock.Model.Core.IDockable,Dock.Model.ReactiveUI.Services.Overlays.Hosting.IHostOverlayServicesProvider)
+  fullName: Dock.Model.ReactiveUI.Navigation.Services.DockNavigationHelpers.GetConfirmationService(ReactiveUI.IScreen, Dock.Model.Core.IDockable, Dock.Model.ReactiveUI.Services.Overlays.Hosting.IHostOverlayServicesProvider)
+  nameWithType: DockNavigationHelpers.GetConfirmationService(IScreen, IDockable, IHostOverlayServicesProvider)
 - uid: Dock.Model.ReactiveUI.Navigation.Services.DockNavigationHelpers.GetConfirmationService(ReactiveUI.IScreen,Dock.Model.ReactiveUI.Services.Overlays.Hosting.IHostOverlayServicesProvider)
   name: GetConfirmationService(IScreen, IHostOverlayServicesProvider)
   href: api/Dock.Model.ReactiveUI.Navigation.Services.DockNavigationHelpers.html#Dock_Model_ReactiveUI_Navigation_Services_DockNavigationHelpers_GetConfirmationService_ReactiveUI_IScreen_Dock_Model_ReactiveUI_Services_Overlays_Hosting_IHostOverlayServicesProvider_
@@ -43199,6 +44538,12 @@ references:
   isSpec: "True"
   fullName: Dock.Model.ReactiveUI.Navigation.Services.DockNavigationHelpers.GetConfirmationService
   nameWithType: DockNavigationHelpers.GetConfirmationService
+- uid: Dock.Model.ReactiveUI.Navigation.Services.DockNavigationHelpers.GetDialogService(ReactiveUI.IScreen,Dock.Model.Core.IDockable,Dock.Model.ReactiveUI.Services.Overlays.Hosting.IHostOverlayServicesProvider)
+  name: GetDialogService(IScreen, IDockable, IHostOverlayServicesProvider)
+  href: api/Dock.Model.ReactiveUI.Navigation.Services.DockNavigationHelpers.html#Dock_Model_ReactiveUI_Navigation_Services_DockNavigationHelpers_GetDialogService_ReactiveUI_IScreen_Dock_Model_Core_IDockable_Dock_Model_ReactiveUI_Services_Overlays_Hosting_IHostOverlayServicesProvider_
+  commentId: M:Dock.Model.ReactiveUI.Navigation.Services.DockNavigationHelpers.GetDialogService(ReactiveUI.IScreen,Dock.Model.Core.IDockable,Dock.Model.ReactiveUI.Services.Overlays.Hosting.IHostOverlayServicesProvider)
+  fullName: Dock.Model.ReactiveUI.Navigation.Services.DockNavigationHelpers.GetDialogService(ReactiveUI.IScreen, Dock.Model.Core.IDockable, Dock.Model.ReactiveUI.Services.Overlays.Hosting.IHostOverlayServicesProvider)
+  nameWithType: DockNavigationHelpers.GetDialogService(IScreen, IDockable, IHostOverlayServicesProvider)
 - uid: Dock.Model.ReactiveUI.Navigation.Services.DockNavigationHelpers.GetDialogService(ReactiveUI.IScreen,Dock.Model.ReactiveUI.Services.Overlays.Hosting.IHostOverlayServicesProvider)
   name: GetDialogService(IScreen, IHostOverlayServicesProvider)
   href: api/Dock.Model.ReactiveUI.Navigation.Services.DockNavigationHelpers.html#Dock_Model_ReactiveUI_Navigation_Services_DockNavigationHelpers_GetDialogService_ReactiveUI_IScreen_Dock_Model_ReactiveUI_Services_Overlays_Hosting_IHostOverlayServicesProvider_
@@ -43212,6 +44557,12 @@ references:
   isSpec: "True"
   fullName: Dock.Model.ReactiveUI.Navigation.Services.DockNavigationHelpers.GetDialogService
   nameWithType: DockNavigationHelpers.GetDialogService
+- uid: Dock.Model.ReactiveUI.Navigation.Services.DockNavigationHelpers.GetOverlayServices(ReactiveUI.IScreen,Dock.Model.Core.IDockable,Dock.Model.ReactiveUI.Services.Overlays.Hosting.IHostOverlayServicesProvider)
+  name: GetOverlayServices(IScreen, IDockable, IHostOverlayServicesProvider)
+  href: api/Dock.Model.ReactiveUI.Navigation.Services.DockNavigationHelpers.html#Dock_Model_ReactiveUI_Navigation_Services_DockNavigationHelpers_GetOverlayServices_ReactiveUI_IScreen_Dock_Model_Core_IDockable_Dock_Model_ReactiveUI_Services_Overlays_Hosting_IHostOverlayServicesProvider_
+  commentId: M:Dock.Model.ReactiveUI.Navigation.Services.DockNavigationHelpers.GetOverlayServices(ReactiveUI.IScreen,Dock.Model.Core.IDockable,Dock.Model.ReactiveUI.Services.Overlays.Hosting.IHostOverlayServicesProvider)
+  fullName: Dock.Model.ReactiveUI.Navigation.Services.DockNavigationHelpers.GetOverlayServices(ReactiveUI.IScreen, Dock.Model.Core.IDockable, Dock.Model.ReactiveUI.Services.Overlays.Hosting.IHostOverlayServicesProvider)
+  nameWithType: DockNavigationHelpers.GetOverlayServices(IScreen, IDockable, IHostOverlayServicesProvider)
 - uid: Dock.Model.ReactiveUI.Navigation.Services.DockNavigationHelpers.GetOverlayServices(ReactiveUI.IScreen,Dock.Model.ReactiveUI.Services.Overlays.Hosting.IHostOverlayServicesProvider)
   name: GetOverlayServices(IScreen, IHostOverlayServicesProvider)
   href: api/Dock.Model.ReactiveUI.Navigation.Services.DockNavigationHelpers.html#Dock_Model_ReactiveUI_Navigation_Services_DockNavigationHelpers_GetOverlayServices_ReactiveUI_IScreen_Dock_Model_ReactiveUI_Services_Overlays_Hosting_IHostOverlayServicesProvider_
@@ -43935,6 +45286,12 @@ references:
   commentId: M:Dock.Model.ReactiveUI.Services.Overlays.Hosting.HostOverlayServicesProvider.GetServices(ReactiveUI.IScreen)
   fullName: Dock.Model.ReactiveUI.Services.Overlays.Hosting.HostOverlayServicesProvider.GetServices(ReactiveUI.IScreen)
   nameWithType: HostOverlayServicesProvider.GetServices(IScreen)
+- uid: Dock.Model.ReactiveUI.Services.Overlays.Hosting.HostOverlayServicesProvider.GetServices(ReactiveUI.IScreen,Dock.Model.Core.IDockable)
+  name: GetServices(IScreen, IDockable)
+  href: api/Dock.Model.ReactiveUI.Services.Overlays.Hosting.HostOverlayServicesProvider.html#Dock_Model_ReactiveUI_Services_Overlays_Hosting_HostOverlayServicesProvider_GetServices_ReactiveUI_IScreen_Dock_Model_Core_IDockable_
+  commentId: M:Dock.Model.ReactiveUI.Services.Overlays.Hosting.HostOverlayServicesProvider.GetServices(ReactiveUI.IScreen,Dock.Model.Core.IDockable)
+  fullName: Dock.Model.ReactiveUI.Services.Overlays.Hosting.HostOverlayServicesProvider.GetServices(ReactiveUI.IScreen, Dock.Model.Core.IDockable)
+  nameWithType: HostOverlayServicesProvider.GetServices(IScreen, IDockable)
 - uid: Dock.Model.ReactiveUI.Services.Overlays.Hosting.HostOverlayServicesProvider.GetServices*
   name: GetServices
   href: api/Dock.Model.ReactiveUI.Services.Overlays.Hosting.HostOverlayServicesProvider.html#Dock_Model_ReactiveUI_Services_Overlays_Hosting_HostOverlayServicesProvider_GetServices_
@@ -43954,6 +45311,12 @@ references:
   commentId: M:Dock.Model.ReactiveUI.Services.Overlays.Hosting.IHostOverlayServicesProvider.GetServices(ReactiveUI.IScreen)
   fullName: Dock.Model.ReactiveUI.Services.Overlays.Hosting.IHostOverlayServicesProvider.GetServices(ReactiveUI.IScreen)
   nameWithType: IHostOverlayServicesProvider.GetServices(IScreen)
+- uid: Dock.Model.ReactiveUI.Services.Overlays.Hosting.IHostOverlayServicesProvider.GetServices(ReactiveUI.IScreen,Dock.Model.Core.IDockable)
+  name: GetServices(IScreen, IDockable)
+  href: api/Dock.Model.ReactiveUI.Services.Overlays.Hosting.IHostOverlayServicesProvider.html#Dock_Model_ReactiveUI_Services_Overlays_Hosting_IHostOverlayServicesProvider_GetServices_ReactiveUI_IScreen_Dock_Model_Core_IDockable_
+  commentId: M:Dock.Model.ReactiveUI.Services.Overlays.Hosting.IHostOverlayServicesProvider.GetServices(ReactiveUI.IScreen,Dock.Model.Core.IDockable)
+  fullName: Dock.Model.ReactiveUI.Services.Overlays.Hosting.IHostOverlayServicesProvider.GetServices(ReactiveUI.IScreen, Dock.Model.Core.IDockable)
+  nameWithType: IHostOverlayServicesProvider.GetServices(IScreen, IDockable)
 - uid: Dock.Model.ReactiveUI.Services.Overlays.Hosting.IHostOverlayServicesProvider.GetServices*
   name: GetServices
   href: api/Dock.Model.ReactiveUI.Services.Overlays.Hosting.IHostOverlayServicesProvider.html#Dock_Model_ReactiveUI_Services_Overlays_Hosting_IHostOverlayServicesProvider_GetServices_

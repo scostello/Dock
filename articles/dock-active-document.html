@@ -84,28 +84,35 @@
 <h1 id="finding-the-active-document">Finding the Active Document</h1>
 
 <p>Only one dockable (document or tool) can have focus at a time, even when multiple
-<code>IDocumentDock</code> instances or floating windows are present. The root dock that owns
-the focused dockable stores it in <code>FocusedDockable</code>, and the factory reports focus
-changes through <code>IFactory.FocusedDockableChanged</code>.</p>
+<code>IDocumentDock</code> instances or floating windows are present.</p>
+<p>Use factory global tracking for cross-window scenarios:</p>
+<ul>
+<li><code>IFactory.CurrentDockable</code></li>
+<li><code>IFactory.CurrentRootDock</code></li>
+<li><code>IFactory.CurrentDockWindow</code></li>
+<li><code>IFactory.GlobalDockTrackingChanged</code></li>
+</ul>
 <p>If you already have the root layout for a window, read <code>FocusedDockable</code> directly:</p>
 <pre><code class="lang-csharp">var currentDocument = Layout?.FocusedDockable as IDocument;
 </code></pre>
-<p>To track focus across multiple windows, subscribe to the factory event and cache
-the latest dockable:</p>
+<p>To track focus across multiple windows, subscribe to global tracking:</p>
 <pre><code class="lang-csharp">IDockable? focusedDockable = null;
 
-factory.FocusedDockableChanged += (_, e) =&gt;
+factory.GlobalDockTrackingChanged += (_, e) =&gt;
 {
-    focusedDockable = e.Dockable;
-    Console.WriteLine($&quot;Focused dockable: {e.Dockable?.Title}&quot;);
+    focusedDockable = e.Current.Dockable;
+    Console.WriteLine($&quot;Focused dockable: {e.Current.Dockable?.Title}&quot;);
 };
 
 var currentDocument = focusedDockable as IDocument;
 </code></pre>
-<p>If you need the root dock that owns the focused dockable:</p>
-<pre><code class="lang-csharp">var focusedRoot = focusedDockable is { } dockable
-    ? factory.FindRoot(dockable, root =&gt; root.IsFocusableRoot)
-    : null;
+<p>If you need the owning root/window:</p>
+<pre><code class="lang-csharp">var focusedRoot = factory.CurrentRootDock;
+var focusedWindow = factory.CurrentDockWindow;
+</code></pre>
+<p>You can also use helper extensions:</p>
+<pre><code class="lang-csharp">var currentDocument = factory.GetCurrentDocument();
+var activeRoot = factory.GetActiveRoot();
 </code></pre>
 <pre><code class="lang-csharp">// Close whichever dockable currently has focus.
 if (focusedDockable is { } dockable)
@@ -113,9 +120,7 @@ if (focusedDockable is { } dockable)
     factory.CloseDockable(dockable);
 }
 </code></pre>
-<p>The focused dockable can be <code>null</code> when nothing is focused. In multi-window
-layouts, each root keeps its last focused dockable, so use the event to determine
-the current focus.</p>
+<p>The focused dockable can be <code>null</code> when nothing is focused.</p>
 
 </article>
 
