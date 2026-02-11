@@ -1180,6 +1180,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Dock.Avalonia.Converters.DockCapabilityConverters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dock.Avalonia.Converters.DockCapabilityConverters.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dock.Avalonia.Converters.DockCapabilityConverters",
+      "Summary": "<p sourcefile=\"api/Dock.Avalonia.Converters.DockCapabilityConverters.yml\" sourcestartlinenumber=\"1\">Provides singleton converters for effective dock capability evaluation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Dock.Avalonia.Converters.DockModeConverter.yml",
       "output": {
         ".html": {
@@ -2160,6 +2174,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Dock.Model.Avalonia.Controls.DockItemContainerGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dock.Model.Avalonia.Controls.DockItemContainerGenerator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dock.Model.Avalonia.Controls.DockItemContainerGenerator",
+      "Summary": "<p sourcefile=\"api/Dock.Model.Avalonia.Controls.DockItemContainerGenerator.yml\" sourcestartlinenumber=\"1\">Default ItemsSource container generator for document and tool docks.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Dock.Model.Avalonia.Controls.Document.yml",
       "output": {
         ".html": {
@@ -2325,6 +2353,20 @@
       "IsMRef": true,
       "Title": "Dock.Model.Avalonia.Controls.ToolDock",
       "Summary": "<p sourcefile=\"api/Dock.Model.Avalonia.Controls.ToolDock.yml\" sourcestartlinenumber=\"1\">Tool dock.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dock.Model.Avalonia.Controls.ToolTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dock.Model.Avalonia.Controls.ToolTemplate.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dock.Model.Avalonia.Controls.ToolTemplate",
+      "Summary": "<p sourcefile=\"api/Dock.Model.Avalonia.Controls.ToolTemplate.yml\" sourcestartlinenumber=\"1\">Tool template.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3224,6 +3266,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Dock.Model.Controls.IToolDockContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dock.Model.Controls.IToolDockContent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dock.Model.Controls.IToolDockContent",
+      "Summary": "<p sourcefile=\"api/Dock.Model.Controls.IToolDockContent.yml\" sourcestartlinenumber=\"1\">Tool dock content contract.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dock.Model.Controls.IToolTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dock.Model.Controls.IToolTemplate.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dock.Model.Controls.IToolTemplate",
+      "Summary": "<p sourcefile=\"api/Dock.Model.Controls.IToolTemplate.yml\" sourcestartlinenumber=\"1\">Tool template contract.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Dock.Model.Controls.IUniformGridDock.yml",
       "output": {
         ".html": {
@@ -3277,6 +3347,76 @@
       "IsMRef": true,
       "Title": "Dock.Model.Core.Alignment",
       "Summary": "<p sourcefile=\"api/Dock.Model.Core.Alignment.yml\" sourcestartlinenumber=\"1\">Defines dock alignment.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dock.Model.Core.DockCapability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dock.Model.Core.DockCapability.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dock.Model.Core.DockCapability",
+      "Summary": "<p sourcefile=\"api/Dock.Model.Core.DockCapability.yml\" sourcestartlinenumber=\"1\">Represents a logical dock capability that can be controlled by policy.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dock.Model.Core.DockCapabilityEvaluation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dock.Model.Core.DockCapabilityEvaluation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dock.Model.Core.DockCapabilityEvaluation",
+      "Summary": "<p sourcefile=\"api/Dock.Model.Core.DockCapabilityEvaluation.yml\" sourcestartlinenumber=\"1\">Represents a resolved effective capability value and diagnostics.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dock.Model.Core.DockCapabilityOverrides.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dock.Model.Core.DockCapabilityOverrides.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dock.Model.Core.DockCapabilityOverrides",
+      "Summary": "<p sourcefile=\"api/Dock.Model.Core.DockCapabilityOverrides.yml\" sourcestartlinenumber=\"1\">Per-dockable capability overrides with highest precedence.\nNull values inherit from dock/root policy resolution.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dock.Model.Core.DockCapabilityPolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dock.Model.Core.DockCapabilityPolicy.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dock.Model.Core.DockCapabilityPolicy",
+      "Summary": "<p sourcefile=\"api/Dock.Model.Core.DockCapabilityPolicy.yml\" sourcestartlinenumber=\"1\">Default capability policy implementation used by root and dock policies.\nNull values inherit lower-precedence values.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dock.Model.Core.DockCapabilityValueSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dock.Model.Core.DockCapabilityValueSource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dock.Model.Core.DockCapabilityValueSource",
+      "Summary": "<p sourcefile=\"api/Dock.Model.Core.DockCapabilityValueSource.yml\" sourcestartlinenumber=\"1\">Describes which layer resolved an effective capability value.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3487,6 +3627,20 @@
       "IsMRef": true,
       "Title": "Dock.Model.Core.DockingWindowState",
       "Summary": "<p sourcefile=\"api/Dock.Model.Core.DockingWindowState.yml\" sourcestartlinenumber=\"1\">Represents the logical docking state of a dockable.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dock.Model.Core.DockingWindowStateProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dock.Model.Core.DockingWindowStateProperty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dock.Model.Core.DockingWindowStateProperty",
+      "Summary": "<p sourcefile=\"api/Dock.Model.Core.DockingWindowStateProperty.yml\" sourcestartlinenumber=\"1\">Identifies the <xref href=\"Dock.Model.Core.IDockingWindowState\" data-throw-if-not-resolved=\"false\"></xref> property that changed.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4022,6 +4176,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Dock.Model.Core.IDockCapabilityPolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dock.Model.Core.IDockCapabilityPolicy.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dock.Model.Core.IDockCapabilityPolicy",
+      "Summary": "<p sourcefile=\"api/Dock.Model.Core.IDockCapabilityPolicy.yml\" sourcestartlinenumber=\"1\">Defines optional capability values used by root and dock capability policies.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Dock.Model.Core.IDockControl.yml",
       "output": {
         ".html": {
@@ -4047,6 +4215,34 @@
       "IsMRef": true,
       "Title": "Dock.Model.Core.IDockControlState",
       "Summary": "<p sourcefile=\"api/Dock.Model.Core.IDockControlState.yml\" sourcestartlinenumber=\"1\">Dock control state contract.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dock.Model.Core.IDockItemContainerGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dock.Model.Core.IDockItemContainerGenerator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dock.Model.Core.IDockItemContainerGenerator",
+      "Summary": "<p sourcefile=\"api/Dock.Model.Core.IDockItemContainerGenerator.yml\" sourcestartlinenumber=\"1\">Defines creation and lifecycle hooks for ItemsSource-generated dock item containers.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dock.Model.Core.IDockItemContainerMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dock.Model.Core.IDockItemContainerMetadata.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dock.Model.Core.IDockItemContainerMetadata",
+      "Summary": "<p sourcefile=\"api/Dock.Model.Core.IDockItemContainerMetadata.yml\" sourcestartlinenumber=\"1\">Optional presentation metadata for source-generated dockables.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4190,6 +4386,48 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Dock.Model.Core.IDockingWindowState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dock.Model.Core.IDockingWindowState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dock.Model.Core.IDockingWindowState",
+      "Summary": "<p sourcefile=\"api/Dock.Model.Core.IDockingWindowState.yml\" sourcestartlinenumber=\"1\">Optional docking window state mixin that allows a view model to bind to\nlayout-backed window lifecycle and activation state.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dock.Model.Core.IDockingWindowStateSync.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dock.Model.Core.IDockingWindowStateSync.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dock.Model.Core.IDockingWindowStateSync",
+      "Summary": "<p sourcefile=\"api/Dock.Model.Core.IDockingWindowStateSync.yml\" sourcestartlinenumber=\"1\">Synchronizes state requests from <xref href=\"Dock.Model.Core.IDockingWindowState\" data-throw-if-not-resolved=\"false\"></xref> instances\nback to the docking layout.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dock.Model.Core.IDocumentItemTemplateSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dock.Model.Core.IDocumentItemTemplateSelector.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dock.Model.Core.IDocumentItemTemplateSelector",
+      "Summary": "<p sourcefile=\"api/Dock.Model.Core.IDocumentItemTemplateSelector.yml\" sourcestartlinenumber=\"1\">Selects template content for generated document containers.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Dock.Model.Core.IFactory.yml",
       "output": {
         ".html": {
@@ -4299,6 +4537,34 @@
       "IsMRef": true,
       "Title": "Dock.Model.Core.INavigateAdapter",
       "Summary": "<p sourcefile=\"api/Dock.Model.Core.INavigateAdapter.yml\" sourcestartlinenumber=\"1\">Navigate adapter contract for the <xref href=\"Dock.Model.Core.IDock\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dock.Model.Core.IToolItemTemplateSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dock.Model.Core.IToolItemTemplateSelector.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dock.Model.Core.IToolItemTemplateSelector",
+      "Summary": "<p sourcefile=\"api/Dock.Model.Core.IToolItemTemplateSelector.yml\" sourcestartlinenumber=\"1\">Selects template content for generated tool containers.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dock.Model.Core.IToolItemsSourceDock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dock.Model.Core.IToolItemsSourceDock.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dock.Model.Core.IToolItemsSourceDock",
+      "Summary": "<p sourcefile=\"api/Dock.Model.Core.IToolItemsSourceDock.yml\" sourcestartlinenumber=\"1\">Interface for docks that support ItemsSource-based tool generation.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4439,6 +4705,20 @@
       "IsMRef": true,
       "Title": "Dock.Model.Core",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dock.Model.DockCapabilityResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dock.Model.DockCapabilityResolver.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Dock.Model.DockCapabilityResolver",
+      "Summary": "<p sourcefile=\"api/Dock.Model.DockCapabilityResolver.yml\" sourcestartlinenumber=\"1\">Resolves effective dock capability values using policy precedence.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -7353,6 +7633,16 @@
       "output": {
         ".html": {
           "relative_path": "articles/dock-caliburn-micro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/dock-capability-policies.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/dock-capability-policies.html"
         }
       },
       "version": ""
